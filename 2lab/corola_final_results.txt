@@ -1,0 +1,324 @@
+=== ANALIZA COROLA (Cele 3 Modele Separate) ===
+
+
+======================================================================
+MODEL: 1_WORD (corola.300.20.vec)
+======================================================================
+
+--- CEI MAI Apropiați 10 VECINI ---
+
+Cuvânt Original: 'regele' -> Interogare AI: 'regele'
+   - rege: 0.8673
+   - regelui: 0.8516
+   - principele: 0.7655
+   - regel: 0.7566
+   - carol: 0.7519
+   - regina: 0.7496
+   - ducele: 0.7447
+   - împăratul: 0.7446
+   - prințul: 0.7423
+   - ferdinand: 0.7414
+
+Cuvânt Original: 'femeie' -> Interogare AI: 'femeie'
+   - femeia: 0.8539
+   - fată: 0.8216
+   - bărbat: 0.7861
+   - tânără: 0.7809
+   - bătrână: 0.7689
+   - fetiță: 0.7588
+   - blondă: 0.7416
+   - brunetă: 0.7212
+   - fetișcană: 0.7206
+   - femeiușcă: 0.7156
+
+Cuvânt Original: 'câine' -> Interogare AI: 'câine'
+   - câinele: 0.8302
+   - câini: 0.7432
+   - câinos: 0.7269
+   - câinelui: 0.7256
+   - cățel: 0.7241
+   - câinește: 0.7221
+   - ciobănesc: 0.7203
+   - cățeluș: 0.7193
+   - câinii: 0.7178
+   - câinele-lup: 0.7162
+
+Cuvânt Original: 'pisică' -> Interogare AI: 'pisică'
+   - pisica: 0.8314
+   - pisic: 0.7913
+   - pisicuță: 0.7360
+   - pisicuța: 0.7190
+   - pisicul: 0.7104
+   - motan: 0.7045
+   - nevăstuică: 0.7017
+   - pisicuț: 0.6992
+   - pisicii: 0.6987
+   - căprioară: 0.6947
+
+Cuvânt Original: 'mașină' -> Interogare AI: 'mașină'
+   - mașina: 0.8869
+   - mașinuța: 0.7468
+   - mașinuță: 0.7397
+   - limuzină: 0.7340
+   - camionetă: 0.7293
+   - camioneta: 0.7226
+   - mașinii: 0.7191
+   - decapotabilă: 0.6951
+   - bicicletă: 0.6932
+   - camion: 0.6899
+
+Cuvânt Original: 'alerg' -> Interogare AI: 'alerg'
+   - alergam: 0.7586
+   - alergai: 0.7470
+   - alergat: 0.7298
+   - urc: 0.7266
+   - alergând: 0.7265
+   - cobor: 0.7264
+   - lunec: 0.7196
+   - strig: 0.7172
+   - alergasem: 0.7113
+   - aleargă: 0.7103
+
+Cuvânt Original: 'mănâncă' -> Interogare AI: 'mănâncă'
+   - mânâncă: 0.8185
+   - mănîncă: 0.7956
+   - mănânce: 0.7821
+   - manâncă: 0.7796
+   - mâncă: 0.7790
+   - mănânc: 0.7675
+   - mănânci: 0.7620
+   - mânca: 0.7518
+   - mâncat: 0.7504
+   - înfulecă: 0.7361
+
+Cuvânt Original: 'dormi' -> Interogare AI: 'dormi'
+   - adormi: 0.8315
+   - dorm: 0.7791
+   - doarme: 0.7748
+   - doarmă: 0.7463
+   - culcai: 0.7382
+   - odihnești: 0.7367
+   - dormeai: 0.7314
+   - adoarmă: 0.7309
+   - culci: 0.7269
+   - adorm: 0.7166
+
+Cuvânt Original: 'frumos' -> Interogare AI: 'frumos'
+   - frumosă: 0.7846
+   - minunat: 0.7483
+   - plăcut: 0.7070
+   - frumoasă: 0.7003
+   - superb: 0.6988
+   - splendid: 0.6936
+   - adorabil: 0.6851
+   - frumosul: 0.6836
+   - drag: 0.6820
+   - preafrumos: 0.6728
+
+Cuvânt Original: 'inteligent' -> Interogare AI: 'inteligent'
+   - inteligentul: 0.8453
+   - inteligenta: 0.7233
+   - deștept: 0.7221
+   - curajos: 0.7126
+   - talentat: 0.7047
+   - perspicace: 0.6959
+   - sofisticat: 0.6928
+   - cinic: 0.6854
+   - descurcăreț: 0.6820
+   - inteligentă: 0.6807
+
+
+--- ANALOGII SEMANTICE ---
+
+Test: Gen (Masculin -> Feminin)
+Ecuație: rege + femeie - bărbat = 
+  -> regină (Scor: 0.8015)
+  -> regele (Scor: 0.7429)
+  -> regelui (Scor: 0.7211)
+
+Test: Geografie (Capitală -> Țară)
+Ecuație: bucurești + franța - românia = 
+  -> paris (Scor: 0.5591)
+  -> bordeaux (Scor: 0.5410)
+  -> labonne (Scor: 0.5353)
+
+
+======================================================================
+MODEL: 2_LEMMA (lemma_corola.300.50.vec)
+======================================================================
+
+--- CEI MAI Apropiați 10 VECINI ---
+
+Cuvânt Original: 'regele' -> Interogare AI: 'rege'
+   - monarh: 0.7919
+   - regină: 0.7710
+   - împărat: 0.7682
+   - încoronare: 0.7382
+   - tron: 0.7333
+   - Henric: 0.7302
+   - majestate: 0.7241
+   - încorona: 0.7160
+   - prinț: 0.7100
+   - Carol: 0.7082
+
+Cuvânt Original: 'femeie' -> Interogare AI: 'femeie'
+   - bărbat: 0.8752
+   - adolescentă: 0.6528
+   - fată: 0.6360
+   - barbat: 0.6268
+   - nemăritat: 0.6157
+   - tânără: 0.6156
+   - bărbată: 0.6137
+   - femeiesc: 0.6129
+   - tânăr: 0.6032
+   - băiat: 0.6013
+
+Cuvânt Original: 'câine' -> Interogare AI: 'câine'
+   - câinie: 0.7402
+   - pisică: 0.7322
+   - cățel: 0.6816
+   - lătra: 0.6753
+   - dulău: 0.6715
+   - maidanez: 0.6674
+   - câine-lup: 0.6640
+   - cățeluș: 0.6395
+   - cățelandru: 0.6367
+   - patruped: 0.6320
+
+Cuvânt Original: 'pisică' -> Interogare AI: 'pisic'
+   - pisică: 0.8005
+   - pisicuț: 0.7934
+   - pisicuță: 0.7596
+   - pisici: 0.7552
+   - pisoi: 0.6936
+   - cățel: 0.6743
+   - cățeluș: 0.6736
+   - motan: 0.6735
+   - pisoiaș: 0.6678
+   - pisicesc: 0.6613
+
+Cuvânt Original: 'mașină' -> Interogare AI: 'mașină'
+   - camionetă: 0.6691
+   - automobil: 0.6487
+   - mașină-unealtă: 0.6359
+   - bormașină: 0.6333
+   - masină: 0.6284
+   - autocamion: 0.6101
+   - camion: 0.6089
+   - parcat: 0.5932
+   - parca: 0.5904
+   - bicicletă: 0.5878
+
+Cuvânt Original: 'alerg' -> Interogare AI: 'alerga'
+   - goni: 0.7651
+   - striga: 0.7506
+   - plimba: 0.7499
+   - țopăi: 0.7488
+   - umbla: 0.7473
+   - repezi: 0.7462
+   - rătăci: 0.7400
+   - alergat: 0.7398
+   - bezmetici: 0.7371
+   - țipa: 0.7371
+
+Cuvânt Original: 'mănâncă' -> Interogare AI: 'mănâncă'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'dormi' -> Interogare AI: 'dormi'
+   - adormi: 0.8594
+   - culca: 0.8313
+   - odihni: 0.7940
+   - ațipi: 0.7710
+   - noaptea: 0.7617
+   - moțăi: 0.7511
+   - dormita: 0.7435
+   - zăcea: 0.7263
+   - adormit: 0.7219
+   - lenevi: 0.7178
+
+Cuvânt Original: 'frumos' -> Interogare AI: 'frumos'
+   - frumosă: 0.8358
+   - minunat: 0.7958
+   - încântător: 0.7696
+   - superb: 0.7522
+   - mândru: 0.7446
+   - fermecător: 0.7410
+   - splendid: 0.7373
+   - frumoasă: 0.7339
+   - preafrumos: 0.7243
+   - minuna: 0.7218
+
+Cuvânt Original: 'inteligent' -> Interogare AI: 'inteligent'
+   - inteligență: 0.7074
+   - deștept: 0.6597
+   - prietenos: 0.6431
+   - isteț: 0.6319
+   - descurcăreț: 0.6202
+   - ingenios: 0.6191
+   - sofisticat: 0.6093
+   - educat: 0.6031
+   - curajos: 0.5998
+   - simpatic: 0.5913
+
+
+--- ANALOGII SEMANTICE ---
+
+Test: Gen (Masculin -> Feminin)
+Ecuație: rege + femeie - bărbat = 
+  -> regină (Scor: 0.7657)
+  -> monarh (Scor: 0.6813)
+  -> împărat (Scor: 0.6804)
+
+Test: Geografie (Capitală -> Țară)
+Ecuație: București + franță - România = 
+  -> bucureștii (Scor: 0.5164)
+  -> -București (Scor: 0.4637)
+  -> Budapesta-București (Scor: 0.4118)
+
+
+======================================================================
+MODEL: 3_LEMMA+POS (pos_corola.300.50.vec)
+======================================================================
+
+--- CEI MAI Apropiați 10 VECINI ---
+
+Cuvânt Original: 'regele' -> Interogare AI: 'rege_NOUN'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'femeie' -> Interogare AI: 'femeie_NOUN'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'câine' -> Interogare AI: 'câine_NOUN'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'pisică' -> Interogare AI: 'pisic_ADJ'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'mașină' -> Interogare AI: 'mașină_NOUN'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'alerg' -> Interogare AI: 'alerga_AUX'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'mănâncă' -> Interogare AI: 'mănâncă_VERB'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'dormi' -> Interogare AI: 'dormi_VERB'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'frumos' -> Interogare AI: 'frumos_ADV'
+   [!] Nu există în vocabularul acestui model.
+
+Cuvânt Original: 'inteligent' -> Interogare AI: 'inteligent_ADV'
+   [!] Nu există în vocabularul acestui model.
+
+
+--- ANALOGII SEMANTICE ---
+
+Test: Gen (Masculin -> Feminin)
+Ecuație: rege_ADJ + femeie_NOUN - bărbat_NOUN = 
+  [!] Eroare: Cuvântul "Key 'rege_ADJ' not present in vocabulary" lipsește din vocabularul acestui model.
+
+Test: Geografie (Capitală -> Țară)
+Ecuație: București_PROPN + franță_PROPN - România_PROPN = 
+  [!] Eroare: Cuvântul "Key 'București_PROPN' not present in vocabulary" lipsește din vocabularul acestui model.

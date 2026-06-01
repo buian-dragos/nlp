@@ -1,0 +1,178 @@
+
+==========================================================================================
+Text 1 Analysis: Hey there! How's it going? I'm excited for the weekend.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Hey             hey             hey             INTJ   UH     root       0    _
+there           there           there           ADV    RB     advmod     1    PronType=Dem
+!               !               !               PUNCT  .      punct      1    _
+How             how             how             ADV    WRB    advmod     4    PronType=Int
+'s              's              be              AUX    VBZ    aux        4    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+it              it              it              PRON   PRP    nsubj      4    Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+going           go              go              VERB   VBG    root       0    Tense=Pres|VerbForm=Part
+?               ?               ?               PUNCT  .      punct      4    _
+I               i               I               PRON   PRP    nsubj      3    Case=Nom|Number=Sing|Person=1|PronType=Prs
+'m              'm              be              AUX    VBP    cop        3    Mood=Ind|Tense=Pres|VerbForm=Fin
+excited         excit           excited         ADJ    JJ     root       0    Degree=Pos
+for             for             for             ADP    IN     case       6    _
+the             the             the             DET    DT     det        6    Definite=Def|PronType=Art
+weekend         weekend         weekend         NOUN   NN     obl        3    Number=Sing
+.               .               .               PUNCT  .      punct      3    _
+
+==========================================================================================
+Text 2 Analysis: The cat chased the mouse. It hid under the sofa.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+The             the             the             DET    DT     det        2    Definite=Def|PronType=Art
+cat             cat             cat             NOUN   NN     nsubj      3    Number=Sing
+chased          chase           chase           VERB   VBD    root       0    Mood=Ind|Tense=Past|VerbForm=Fin
+the             the             the             DET    DT     det        5    Definite=Def|PronType=Art
+mouse           mous            mouse           NOUN   NN     obj        3    Number=Sing
+.               .               .               PUNCT  .      punct      3    _
+It              it              it              PRON   PRP    nsubj      2    Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+hid             hid             hide            VERB   VBD    root       0    Mood=Ind|Tense=Past|VerbForm=Fin
+under           under           under           ADP    IN     case       5    _
+the             the             the             DET    DT     det        5    Definite=Def|PronType=Art
+sofa            sofa            sofa            NOUN   NN     obl        2    Number=Sing
+.               .               .               PUNCT  .      punct      2    _
+
+==========================================================================================
+Text 3 Analysis: Spacy is amazing for NLP tasks. It simplifies things a lot.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Spacy           spaci           spacy           NOUN   NN     nsubj      3    Number=Sing
+is              is              be              AUX    VBZ    cop        3    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+amazing         amaz            amazing         ADJ    JJ     root       0    Degree=Pos
+for             for             for             ADP    IN     case       6    _
+NLP             nlp             NLP             PROPN  NNP    compound   6    Number=Sing
+tasks           task            task            NOUN   NNS    obl        3    Number=Plur
+.               .               .               PUNCT  .      punct      3    _
+It              it              it              PRON   PRP    nsubj      2    Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+simplifies      simplifi        simplify        VERB   VBZ    root       0    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+things          thing           thing           NOUN   NNS    obj        2    Number=Plur
+a               a               a               DET    DT     det        5    Definite=Ind|PronType=Art
+lot             lot             lot             NOUN   NN     obl:npmod  2    Number=Sing
+.               .               .               PUNCT  .      punct      2    _
+
+==========================================================================================
+Text 4 Analysis: We visited New York last summer. It was crowded but fun.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+We              we              we              PRON   PRP    nsubj      2    Case=Nom|Number=Plur|Person=1|PronType=Prs
+visited         visit           visit           VERB   VBD    root       0    Mood=Ind|Tense=Past|VerbForm=Fin
+New             new             New             PROPN  NNP    compound   4    Number=Sing
+York            york            York            PROPN  NNP    obj        2    Number=Sing
+last            last            last            ADJ    JJ     amod       6    Degree=Pos
+summer          summer          summer          NOUN   NN     obl:tmod   2    Number=Sing
+.               .               .               PUNCT  .      punct      2    _
+It              it              it              PRON   PRP    nsubj      3    Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+was             was             be              AUX    VBD    cop        3    Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+crowded         crowd           crowded         ADJ    JJ     root       0    Degree=Pos
+but             but             but             CCONJ  CC     cc         5    _
+fun             fun             fun             ADJ    JJ     conj       3    Degree=Pos
+.               .               .               PUNCT  .      punct      3    _
+
+==========================================================================================
+Text 5 Analysis: Coffee wakes me up. Tea relaxes me in the evenings.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Coffee          coffe           coffee          NOUN   NN     nsubj      2    Number=Sing
+wakes           wake            wake            VERB   VBZ    root       0    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+me              me              I               PRON   PRP    obj        2    Case=Acc|Number=Sing|Person=1|PronType=Prs
+up              up              up              ADP    RP     compound:prt 2    _
+.               .               .               PUNCT  .      punct      2    _
+Tea             tea             tea             NOUN   NN     nsubj      2    Number=Sing
+relaxes         relax           relax           VERB   VBZ    root       0    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+me              me              I               PRON   PRP    obj        2    Case=Acc|Number=Sing|Person=1|PronType=Prs
+in              in              in              ADP    IN     case       6    _
+the             the             the             DET    DT     det        6    Definite=Def|PronType=Art
+evenings        even            evening         NOUN   NNS    obl        2    Number=Plur
+.               .               .               PUNCT  .      punct      2    _
+
+==========================================================================================
+Text 6 Analysis: Apple Inc. announced a new iPhone on Tuesday in California.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Apple           appl            Apple           PROPN  NNP    compound   2    Number=Sing
+Inc.            inc.            Inc.            PROPN  NNP    nsubj      3    Number=Sing
+announced       announc         announce        VERB   VBD    root       0    Mood=Ind|Tense=Past|VerbForm=Fin
+a               a               a               DET    DT     det        6    Definite=Ind|PronType=Art
+new             new             new             ADJ    JJ     amod       6    Degree=Pos
+iPhone          iphon           iphone          NOUN   NN     obj        3    Number=Sing
+on              on              on              ADP    IN     case       8    _
+Tuesday         tuesday         Tuesday         PROPN  NNP    obl        3    Number=Sing
+in              in              in              ADP    IN     case       10   _
+California      california      California      PROPN  NNP    obl        3    Number=Sing
+.               .               .               PUNCT  .      punct      3    _
+
+==========================================================================================
+Text 7 Analysis: The quick brown fox jumps over the lazy dog.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+The             the             the             DET    DT     det        4    Definite=Def|PronType=Art
+quick           quick           quick           ADJ    JJ     amod       4    Degree=Pos
+brown           brown           brown           ADJ    JJ     amod       4    Degree=Pos
+fox             fox             fox             NOUN   NN     nsubj      5    Number=Sing
+jumps           jump            jump            VERB   VBZ    root       0    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+over            over            over            ADP    IN     case       9    _
+the             the             the             DET    DT     det        9    Definite=Def|PronType=Art
+lazy            lazi            lazy            ADJ    JJ     amod       9    Degree=Pos
+dog             dog             dog             NOUN   NN     obl        5    Number=Sing
+.               .               .               PUNCT  .      punct      5    _
+
+==========================================================================================
+Text 8 Analysis: Elon Musk acquired Twitter for 44 billion dollars in 2022.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Elon            elon            Elon            PROPN  NNP    nsubj      3    Number=Sing
+Musk            musk            Musk            PROPN  NNP    flat       1    Number=Sing
+acquired        acquir          acquire         VERB   VBD    root       0    Mood=Ind|Tense=Past|VerbForm=Fin
+Twitter         twitter         Twitter         PROPN  NNP    obj        3    Number=Sing
+for             for             for             ADP    IN     case       8    _
+44              44              44              NUM    CD     compound   7    NumType=Card
+billion         billion         billion         NUM    CD     nummod     8    NumType=Card
+dollars         dollar          dollar          NOUN   NNS    obl        3    Number=Plur
+in              in              in              ADP    IN     case       10   _
+2022            2022            2022            NUM    CD     obl        3    NumType=Card
+.               .               .               PUNCT  .      punct      3    _
+
+==========================================================================================
+Text 9 Analysis: If it rains tomorrow, the committee will cancel the picnic.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+If              if              if              SCONJ  IN     mark       3    _
+it              it              it              PRON   PRP    nsubj      3    Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+rains           rain            rain            VERB   VBZ    advcl      9    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+tomorrow        tomorrow        tomorrow        NOUN   NN     obl:tmod   3    Number=Sing
+,               ,               ,               PUNCT  ,      punct      9    _
+the             the             the             DET    DT     det        7    Definite=Def|PronType=Art
+committee       committe        committee       NOUN   NN     nsubj      9    Number=Sing
+will            will            will            AUX    MD     aux        9    VerbForm=Fin
+cancel          cancel          cancel          VERB   VB     root       0    VerbForm=Inf
+the             the             the             DET    DT     det        11   Definite=Def|PronType=Art
+picnic          picnic          picnic          NOUN   NN     obj        9    Number=Sing
+.               .               .               PUNCT  .      punct      9    _
+
+==========================================================================================
+Text 10 Analysis: Mount Everest is the highest mountain on Earth.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Mount           mount           Mount           PROPN  NNP    root       0    Number=Sing
+Everest         everest         Everest         PROPN  NNP    nsubj      5    Number=Sing
+is              is              be              AUX    VBZ    cop        5    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+the             the             the             DET    DT     det        5    Definite=Def|PronType=Art
+highest         highest         highest         ADJ    JJS    amod       5    Degree=Sup
+mountain        mountain        mountain        NOUN   NN     root       0    Number=Sing
+on              on              on              ADP    IN     case       7    _
+Earth           earth           Earth           PROPN  NNP    nmod       5    Number=Sing
+.               .               .               PUNCT  .      punct      5    _

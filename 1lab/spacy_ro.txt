@@ -1,0 +1,274 @@
+
+================================================================================
+Analiza Textului 1: Salut! Ce mai faci? N-am mai vorbit de mult timp.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Salut           salut           salut           PROPN  Np     parataxis  faci
+!               !               !               PUNCT  EXCL   punct      Salut
+Ce              ce              ce              PRON   Pw3--r nsubj      faci
+mai             mai             mai             ADV    Rp     advmod     faci
+faci            fac             face            AUX    Vmip2s ROOT       faci
+?               ?               ?               PUNCT  QUEST  punct      faci
+N-              n-              nu              PART   Qz-y   advmod     vorbit
+am              am              avea            AUX    Va--1  aux        vorbit
+mai             mai             mai             ADV    Rp     advmod     vorbit
+vorbit          vorbit          vorbi           VERB   Vmp--sm ROOT       vorbit
+de              de              de              ADP    Spsa   case       timp
+mult            mult            mult            DET    Di3msr det        timp
+timp            timp            timp            NOUN   Ncms-n obl        vorbit
+.               .               .               PUNCT  PERIOD punct      vorbit
+
+--- Noun Chunks (Grupuri Nominale) ---
+- Salut (Root: Salut, Dep: parataxis)
+- mult timp (Root: timp, Dep: obl)
+
+--- Named Entities (Entități Numite) ---
+Nu s-au găsit entități numite.
+
+================================================================================
+Analiza Textului 2: Pisica doarme pe canapea. Este foarte liniștită azi.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Pisica          pisic           pisică          NOUN   Ncfsry nsubj      doarme
+doarme          doarm           doarm           AUX    Vmip3s ROOT       doarme
+pe              pe              pe              ADP    Spsa   case       canapea
+canapea         canap           canape          NOUN   Ncfsry obl        doarme
+.               .               .               PUNCT  PERIOD punct      doarme
+Este            este            fi              AUX    Vaip3s aux:pass   liniștită
+foarte          foart           foarte          ADV    Rp     advmod     liniștită
+liniștită       linișt          liniști         ADJ    Afpfsrn ROOT       liniștită
+azi             azi             azi             ADV    Rgp    advmod     liniștită
+.               .               .               PUNCT  PERIOD punct      liniștită
+
+--- Noun Chunks (Grupuri Nominale) ---
+- Pisica (Root: Pisica, Dep: nsubj)
+- canapea (Root: canapea, Dep: obl)
+
+--- Named Entities (Entități Numite) ---
+Nu s-au găsit entități numite.
+
+================================================================================
+Analiza Textului 3: Mâine mergem la munte. Vremea va fi frumoasă. Abia aștept!
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Mâine           mâin            mâine           ADV    Rgp    advmod     mergem
+mergem          merg            merge           VERB   Vmip1p ROOT       mergem
+la              la              la              ADP    Spsa   case       munte
+munte           munt            munte           NOUN   Ncms-n obl        mergem
+.               .               .               PUNCT  PERIOD punct      mergem
+Vremea          vrem            vreme           NOUN   Ncfsry nsubj      frumoasă
+va              va              vrea            AUX    Va--3s aux        frumoasă
+fi              fi              fi              AUX    Vanp   cop        frumoasă
+frumoasă        frumoas         frumos          ADJ    Afpfsrn ROOT       frumoasă
+.               .               .               PUNCT  PERIOD punct      frumoasă
+Abia            abi             abia            ADV    Rgp    advmod     aștept
+aștept          aștept          aștepta         AUX    Vmip1s ROOT       aștept
+!               !               !               PUNCT  EXCL   punct      aștept
+
+--- Noun Chunks (Grupuri Nominale) ---
+- munte (Root: munte, Dep: obl)
+- Vremea (Root: Vremea, Dep: nsubj)
+
+--- Named Entities (Entități Numite) ---
+- Mâine (DATETIME)
+
+================================================================================
+Analiza Textului 4: Cafeaua este fierbinte și aromată. Îmi place să o beau dimineața devreme.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Cafeaua         cafeau          cafeaue         NOUN   Ncfsry nsubj      fierbinte
+este            este            fi              AUX    Vaip3s cop        fierbinte
+fierbinte       fierbint        fierbinte       ADJ    Afpfsrn ROOT       fierbinte
+și              și              și              CCONJ  Crssp  cc         aromată
+aromată         arom            aroma           VERB   Vmp--sf conj       fierbinte
+.               .               .               PUNCT  PERIOD punct      fierbinte
+Îmi             îmi             eu              PRON   Pp1-sd--------w iobj       place
+place           plac            plăcea          AUX    Vmip3s ROOT       place
+să              să              să              PART   Qs     mark       beau
+o               o               el              PRON   Pp3fsa--------w obj        beau
+beau            beau            bi              VERB   Vmii3p csubj      place
+dimineața       dimineaț        dimineața       ADV    Rgp    advmod     beau
+devreme         devrem          devreme         ADV    Rgp    advmod     beau
+.               .               .               PUNCT  PERIOD punct      place
+
+--- Noun Chunks (Grupuri Nominale) ---
+- Cafeaua (Root: Cafeaua, Dep: nsubj)
+
+--- Named Entities (Entități Numite) ---
+- Cafeaua (GPE)
+
+================================================================================
+Analiza Textului 5: Mi-e foame, hai să mâncăm ceva bun. Cunosc un restaurant nou în centru.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Mi-             mi-             eu              PRON   Pp1-sd--y-----w iobj       foame
+e               e               fi              AUX    Vaip3s cop        foame
+foame           foam            foame           NOUN   Ncfs-n ROOT       foame
+,               ,               ,               PUNCT  COMMA  punct      hai
+hai             hai             hai             NOUN   Ncms-n nsubj      mâncăm
+să              să              să              PART   Qs     mark       mâncăm
+mâncăm          mânc            mânca           VERB   Vmip1p ccomp      foame
+ceva            cev             ceva            PRON   Pi3-sr obj        mâncăm
+bun             bun             bun             ADJ    Afpms-n amod       ceva
+.               .               .               PUNCT  PERIOD punct      foame
+Cunosc          cunosc          Cunosc          AUX    Vmip3p ROOT       Cunosc
+un              un              un              DET    Timsr  det        restaurant
+restaurant      restaur         restaurant      NOUN   Ncms-n obj        Cunosc
+nou             nou             nou             ADJ    Afpms-n amod       restaurant
+în              în              în              ADP    Spsa   case       centru
+centru          centru          centru          NOUN   Ncms-n nmod       restaurant
+.               .               .               PUNCT  PERIOD punct      Cunosc
+
+--- Noun Chunks (Grupuri Nominale) ---
+- foame (Root: foame, Dep: ROOT)
+- hai (Root: hai, Dep: nsubj)
+- un restaurant nou (Root: restaurant, Dep: obj)
+- centru (Root: centru, Dep: nmod)
+
+--- Named Entities (Entități Numite) ---
+- restaurant (FACILITY)
+
+================================================================================
+Analiza Textului 6: Maria a vizitat Parisul anul trecut și a fost impresionată de Turnul Eiffel.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Maria           mari            Maria           PROPN  Np     nsubj      vizitat
+a               a               avea            AUX    Va--3s aux        vizitat
+vizitat         vizit           vizita          VERB   Vmp--sm ROOT       vizitat
+Parisul         paris           paris           NOUN   Ncmsry obj        vizitat
+anul            an              an              NOUN   Ncmsry nmod       Parisul
+trecut          trecut          trecut          ADJ    Afpms-n amod       anul
+și              și              și              CCONJ  Crssp  cc         impresionată
+a               a               avea            AUX    Va--3s aux        impresionată
+fost            fost            fi              AUX    Vap--sm aux:pass   impresionată
+impresionată    impresion       impresiona      VERB   Vmp--sf conj       vizitat
+de              de              de              ADP    Spsa   case       Turnul
+Turnul          turn            turn            NOUN   Ncmsry obl:agent  impresionată
+Eiffel          eiffel          Eiffel          PROPN  Np     amod       Turnul
+.               .               .               PUNCT  PERIOD punct      vizitat
+
+--- Noun Chunks (Grupuri Nominale) ---
+- Maria (Root: Maria, Dep: nsubj)
+- Parisul (Root: Parisul, Dep: obj)
+- anul trecut (Root: anul, Dep: nmod)
+- Turnul Eiffel (Root: Turnul, Dep: obl:agent)
+- Eiffel (Root: Eiffel, Dep: amod)
+
+--- Named Entities (Entități Numite) ---
+- anul trecut (DATETIME)
+- Turnul Eiffel (FACILITY)
+
+================================================================================
+Analiza Textului 7: Guvernul României a adoptat o nouă lege privind educația națională.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Guvernul        guvern          guvern          NOUN   Ncmsry nsubj      adoptat
+României        român           România         PROPN  Npfsoy nmod       Guvernul
+a               a               avea            AUX    Va--3s aux        adoptat
+adoptat         adopt           adopta          VERB   Vmp--sm ROOT       adoptat
+o               o               un              DET    Tifsr  det        lege
+nouă            nou             nou             ADJ    Afpfsrn amod       lege
+lege            leg             lege            NOUN   Ncfsrn obj        adoptat
+privind         priv            privind         ADP    Spsa   case       educația
+educația        educaț          educație        NOUN   Ncfsry nmod       lege
+națională       național        național        ADJ    Afpfsrn amod       educația
+.               .               .               PUNCT  PERIOD punct      adoptat
+
+--- Noun Chunks (Grupuri Nominale) ---
+- Guvernul (Root: Guvernul, Dep: nsubj)
+- României (Root: României, Dep: nmod)
+- o nouă lege (Root: lege, Dep: obj)
+- educația națională (Root: educația, Dep: nmod)
+
+--- Named Entities (Entități Numite) ---
+- Guvernul României (ORGANIZATION)
+
+================================================================================
+Analiza Textului 8: Câinele vecinului meu latră în fiecare seară la lună.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Câinele         câin            Câinele         NOUN   Ncmpry ROOT       Câinele
+vecinului       vecin           vecin           NOUN   Ncmsoy nmod       Câinele
+meu             meu             meu             DET    Ds1ms-s det        vecinului
+latră           latr            lătra           VERB   Vmip3  amod       vecinului
+în              în              în              ADP    Spsa   case       seară
+fiecare         fiec            fiecare         DET    Di3-sr---e det        seară
+seară           sear            seară           NOUN   Ncfsrn nmod       Câinele
+la              la              la              ADP    Spsa   case       lună
+lună            lun             lună            NOUN   Ncfsrn nmod       Câinele
+.               .               .               PUNCT  PERIOD punct      Câinele
+
+--- Noun Chunks (Grupuri Nominale) ---
+- Câinele (Root: Câinele, Dep: ROOT)
+- vecinului meu latră (Root: vecinului, Dep: nmod)
+- fiecare seară (Root: seară, Dep: nmod)
+- lună (Root: lună, Dep: nmod)
+
+--- Named Entities (Entități Numite) ---
+- fiecare seară la lună (DATETIME)
+
+================================================================================
+Analiza Textului 9: Am cumpărat două mere, trei pere și o sticlă cu apă minerală.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Am              am              avea            AUX    Va--1  aux        cumpărat
+cumpărat        cumpăr          cumpăra         VERB   Vmp--sm ROOT       cumpărat
+două            dou             doi             NUM    Mcfp-l nummod     mere
+mere            mer             mer             NOUN   Ncfp-n obj        cumpărat
+,               ,               ,               PUNCT  COMMA  punct      pere
+trei            tre             trei            NUM    Mc-p-l nummod     pere
+pere            per             per             NOUN   Ncfsrn conj       mere
+și              și              și              CCONJ  Crssp  cc         sticlă
+o               o               un              DET    Tifsr  det        sticlă
+sticlă          sticl           sticlă          NOUN   Ncfsrn conj       mere
+cu              cu              cu              ADP    Spsa   case       apă
+apă             apă             apă             NOUN   Ncfsrn nmod       sticlă
+minerală        mineral         mineral         ADJ    Afpfsrn amod       apă
+.               .               .               PUNCT  PERIOD punct      cumpărat
+
+--- Noun Chunks (Grupuri Nominale) ---
+- două mere (Root: mere, Dep: obj)
+- trei pere (Root: pere, Dep: conj)
+- o sticlă (Root: sticlă, Dep: conj)
+- apă minerală (Root: apă, Dep: nmod)
+
+--- Named Entities (Entități Numite) ---
+- două (NUMERIC_VALUE)
+- trei (NUMERIC_VALUE)
+- sticlă (PRODUCT)
+
+================================================================================
+Analiza Textului 10: Dacă vei învăța mai mult, rezultatele tale la examen vor fi excelente.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Dacă            dac             dacă            SCONJ  Csssp  mark       învăța
+vei             vei             vrea            AUX    Va--2s nsubj      învăța
+învăța          învăț           învăța          VERB   Vmnp   advcl      excelente
+mai             mai             mai             ADV    Rp     advmod     mult
+mult            mult            mult            ADV    Rgp    advmod     învăța
+,               ,               ,               PUNCT  COMMA  punct      învăța
+rezultatele     rezult          rezultat        NOUN   Ncfpry nsubj      excelente
+tale            tal             tău             DET    Ds2fp-s det        rezultatele
+la              la              la              ADP    Spsa   case       examen
+examen          examen          examen          NOUN   Ncms-n nmod       rezultatele
+vor             vor             vrea            AUX    Va--3p aux        excelente
+fi              fi              fi              AUX    Vanp   cop        excelente
+excelente       excelent        excelenta       ADJ    Afpfp-n ROOT       excelente
+.               .               .               PUNCT  PERIOD punct      excelente
+
+--- Noun Chunks (Grupuri Nominale) ---
+- rezultatele tale (Root: rezultatele, Dep: nsubj)
+- examen (Root: examen, Dep: nmod)
+
+--- Named Entities (Entități Numite) ---
+Nu s-au găsit entități numite.

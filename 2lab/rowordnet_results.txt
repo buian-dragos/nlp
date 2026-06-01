@@ -1,0 +1,1409 @@
+
+============================================================
+CUVÂNT: CÂINE
+============================================================
+
+--- Sensul 1 ---
+ID Synset: ENG30-02104523-n
+Literali (Sinonime RO): câine_ciobănesc
+Definiție: rasă de câine mare și puternic, folosită de obicei pentru paza turmelor și a stânii
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine_de_muncă
+Hiponime (Mai specific): ciobănesc_belgian, briard, kelpie_australian, komondor, ciobănesc_de_Shetland...
+Antonime (Opus): Niciunul...
+
+--- Sensul 2 ---
+ID Synset: ENG30-02103841-n
+Literali (Sinonime RO): câine_de_pază
+Definiție: Câine antrenat pentru a apăra o proprietate.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine_de_muncă
+Hiponime (Mai specific): schipperke, pinscher...
+Antonime (Opus): Niciunul...
+
+--- Sensul 3 ---
+ID Synset: ENG30-02087551-n
+Literali (Sinonime RO): copoi, câine_de_vânătoare
+Definiție: câine de vânătoare de talie mare, care urmărește vânatul după miros
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine_de_vânătoare
+Hiponime (Mai specific): baset, copoi, copoi, coonhound, wolfhound...
+Antonime (Opus): Niciunul...
+
+--- Sensul 4 ---
+ID Synset: ENG30-02087122-n
+Literali (Sinonime RO): câine_de_vânătoare
+Definiție: Câine folosit la vânătoare.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine
+Hiponime (Mai specific): copoi, dachshund, terier, câine_de_vânătoare...
+Antonime (Opus): Niciunul...
+
+--- Sensul 5 ---
+ID Synset: ENG30-02103406-n
+Literali (Sinonime RO): câine_de_muncă
+Definiție: 1. câine aparținând uneia dintre speciile antrenate special pentru a lucra ca animale de povară, precum și celor dresate pentru pază.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine
+Hiponime (Mai specific): câine_de_pază, câine_ciobănesc, câine_polițist, boxer, dog_englezesc...
+Antonime (Opus): Niciunul...
+
+--- Sensul 6 ---
+ID Synset: ENG30-02098550-n
+Literali (Sinonime RO): câine_de_vânătoare
+Definiție: Câine antrenat să ajute la vânătoare.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine_de_vânătoare
+Hiponime (Mai specific): prepelicar, brac, brac...
+Antonime (Opus): Niciunul...
+
+--- Sensul 7 ---
+ID Synset: ENG30-02084071-n
+Literali (Sinonime RO): câine
+Definiție: Animal mamifer carnivor domesticit, folosit pentru pază, vânătoare etc..
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): canid, animal_domestic
+Hiponime (Mai specific): cățeluș, cotarlă, javră, câine_mic, câine_de_vânătoare...
+Antonime (Opus): Niciunul...
+
+--- Sensul 8 ---
+ID Synset: ENG30-02085374-n
+Literali (Sinonime RO): câine_mic, câine_pitic, câine_de_buzunar, cățel, câine_de_jucărie
+Definiție: animal de companie care face parte din speciile de câini foarte mici (de ex., chiwawa, papillon)
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine
+Hiponime (Mai specific): dog_maltez, pechinez, spaniel_pitic_continental...
+Antonime (Opus): Niciunul...
+
+--- Sensul 9 ---
+ID Synset: ENG30-02085374-n
+Literali (Sinonime RO): câine_mic, câine_pitic, câine_de_buzunar, cățel, câine_de_jucărie
+Definiție: animal de companie care face parte din speciile de câini foarte mici (de ex., chiwawa, papillon)
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine
+Hiponime (Mai specific): dog_maltez, pechinez, spaniel_pitic_continental...
+Antonime (Opus): Niciunul...
+
+--- Sensul 10 ---
+ID Synset: ENG30-02085374-n
+Literali (Sinonime RO): câine_mic, câine_pitic, câine_de_buzunar, cățel, câine_de_jucărie
+Definiție: animal de companie care face parte din speciile de câini foarte mici (de ex., chiwawa, papillon)
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine
+Hiponime (Mai specific): dog_maltez, pechinez, spaniel_pitic_continental...
+Antonime (Opus): Niciunul...
+
+--- Sensul 11 ---
+ID Synset: ENG30-02085374-n
+Literali (Sinonime RO): câine_mic, câine_pitic, câine_de_buzunar, cățel, câine_de_jucărie
+Definiție: animal de companie care face parte din speciile de câini foarte mici (de ex., chiwawa, papillon)
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine
+Hiponime (Mai specific): dog_maltez, pechinez, spaniel_pitic_continental...
+Antonime (Opus): Niciunul...
+
+--- Sensul 12 ---
+ID Synset: ENG30-02106854-n
+Literali (Sinonime RO): câine_polițist
+Definiție: câine dresat să ajute polițiștii în căutarea urmelor
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine_de_muncă
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 13 ---
+ID Synset: ENG30-02085118-n
+Literali (Sinonime RO): maidanez, câine_vagabond
+Definiție: Câine fără stăpân
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): javră
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 14 ---
+ID Synset: ENG30-02115335-n
+Literali (Sinonime RO): câine_sălbatic
+Definiție: Câine care trăiește în sălbăticie
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): canid
+Hiponime (Mai specific): dingo...
+Antonime (Opus): Niciunul...
+
+--- Sensul 15 ---
+ID Synset: ENG30-14287567-n
+Literali (Sinonime RO): mușcătură_de_câine
+Definiție: Rană, semn produs prin mușcare de către un câine
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.125, Obiectiv: 0.875
+Hipernime (Mai general): mușcătură
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 16 ---
+ID Synset: ENG30-02109811-n
+Literali (Sinonime RO): câine_de_tracțiune
+Definiție: Câine folosit la tractarea unei sănii în regiunile boreale
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine_de_muncă
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 17 ---
+ID Synset: ENG30-02085936-n
+Literali (Sinonime RO): dog_maltez, câine_maltez
+Definiție: rasă de câini de dimensiuni mici cu blană albă mătăsoasă din păr drept, lung
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): câine_mic
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 18 ---
+ID Synset: ENG30-01633949-n
+Literali (Sinonime RO): Proteidae, familia_Proteidae, câine_de_apă
+Definiție: salamandre acvatice, care se transformă prin metamorfoză în salamandre-tigrate terestre
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.25, Obiectiv: 0.75
+Hipernime (Mai general): amfibieni
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 19 ---
+ID Synset: ENG30-01493541-n
+Literali (Sinonime RO): rechin_câine_de_mare
+Definiție: rechin mic, de adâncime
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 20 ---
+ID Synset: ENG30-10023039-n
+Literali (Sinonime RO): câine
+Definiție: Epitet dat unui om rău, hain.   
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): tip
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 21 ---
+ID Synset: ENG30-09268480-n
+Literali (Sinonime RO): căcat_de_câine
+Definiție: Fecale care provin de la un câine
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): excrement
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+============================================================
+CUVÂNT: CAFEA
+============================================================
+
+--- Sensul 1 ---
+ID Synset: ENG30-07929519-n
+Literali (Sinonime RO): cafea
+Definiție: Băutură preparată din cafea prăjită și râșnită sau dintr-un surogat
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): băutură
+Hiponime (Mai specific): înlocuitor_de_cafea, cafea_cu_lapte, cafea_neagră, espresso, capucino...
+Antonime (Opus): Niciunul...
+
+--- Sensul 2 ---
+ID Synset: ENG30-07577918-n
+Literali (Sinonime RO): pauză_de_cafea, pauză_de_masă
+Definiție: întrerupere temporară (de obicei pentru o jumătate de oră) a unei activități, pentru a mânca (puțin) sau pentru a bea o cafea
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): gustare
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 3 ---
+ID Synset: ENG30-07929351-n
+Literali (Sinonime RO): bob_de_cafea, cafea
+Definiție: (Cu sens colectiv) Sămânța arborelui de cafea
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): sămânță
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 4 ---
+ID Synset: ENG30-07929351-n
+Literali (Sinonime RO): bob_de_cafea, cafea
+Definiție: (Cu sens colectiv) Sămânța arborelui de cafea
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): sămânță
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 5 ---
+ID Synset: ENG30-03063073-n
+Literali (Sinonime RO): ceașcă_de_cafea
+Definiție: Ceașcă din care se bea cafeaua
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): ceașcă
+Hiponime (Mai specific): ceșcuță_de_cafea...
+Antonime (Opus): Niciunul...
+
+--- Sensul 6 ---
+ID Synset: ENG30-12662772-n
+Literali (Sinonime RO): arbore, arbore_de_cafea
+Definiție: Expresie : arbore-de-cafea; plantă lemnoasă din regiunile calde ale Americii Latine, Africii și Asiei, cultivată pentru semințele ei comestibile
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): arbore
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 7 ---
+ID Synset: ENG30-03063338-n
+Literali (Sinonime RO): filtru_de_cafea, filtru
+Definiție: Aparat electrocasnic pentru prepararea cafelei
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): dispozitiv_de_bucătărie
+Hiponime (Mai specific): automat_espresso, Silex...
+Antonime (Opus): Niciunul...
+
+--- Sensul 8 ---
+ID Synset: ENG30-03063968-n
+Literali (Sinonime RO): măsuță_de_cafea
+Definiție: Masă joasă pe care se servește cafeaua
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.25, Obiectiv: 0.75
+Hipernime (Mai general): masă
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 9 ---
+ID Synset: ENG30-03174731-n
+Literali (Sinonime RO): ceșcuță_de_cafea
+Definiție: ceașcă mică în care se servește cafea
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): ceașcă_de_cafea
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 10 ---
+ID Synset: ENG30-07919572-n
+Literali (Sinonime RO): cafea_cu_lapte
+Definiție: părți egale de cafea și lapte fierbinte
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): cafea
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 11 ---
+ID Synset: ENG30-03062985-n
+Literali (Sinonime RO): cutie_de_cafea
+Definiție: Cutie pentru păstrarea cafelei
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): cutie
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 12 ---
+ID Synset: ENG30-07919665-n
+Literali (Sinonime RO): cafea_neagră
+Definiție: Ceașcă de cafea fără zahăr sau frișcă
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.25, Obiectiv: 0.75
+Hipernime (Mai general): cafea
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 13 ---
+ID Synset: ENG30-03063199-n
+Literali (Sinonime RO): filtru_de_cafea
+Definiție: Filtru din hârtie sau din alte materiale care reține granulele de cafea
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): filtru
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 14 ---
+ID Synset: ENG30-07731122-n
+Literali (Sinonime RO): înlocuitor_de_cafea
+Definiție: Băutură asemănătoare cafelei, înlocuind-o pe aceasta din urmă
+Scoruri PNO -> Pozitiv: 0.125, Negativ: 0.0, Obiectiv: 0.875
+Hipernime (Mai general): cafea
+Hiponime (Mai specific): cicoare...
+Antonime (Opus): Niciunul...
+
+--- Sensul 15 ---
+ID Synset: ENG30-07630512-n
+Literali (Sinonime RO): biscuit_de_cafea
+Definiție: Biscuit servit lângă cafea
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): prăjitură
+Hiponime (Mai specific): babka...
+Antonime (Opus): Niciunul...
+
+============================================================
+CUVÂNT: MAȘINĂ
+============================================================
+
+--- Sensul 1 ---
+ID Synset: ENG30-03765561-n
+Literali (Sinonime RO): mașină_de_tocat, moară, râșniță
+Definiție: Instalație special amenajată pentru măcinarea sau tocarea a diferite materii
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): mașină_de_fabricat_cidru, râșniță, moară_de_făină, moară, râșniță_de_piper...
+Antonime (Opus): Niciunul...
+
+--- Sensul 2 ---
+ID Synset: ENG30-08077711-n
+Literali (Sinonime RO): mașină_de_pompieri
+Definiție: unitate de pompieri
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): unitate
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 3 ---
+ID Synset: ENG30-03684823-n
+Literali (Sinonime RO): locomotivă, mașină
+Definiție: Vehicul motor de cale ferată, cu sursă de energie proprie sau străină, folosind pentru a remorca și a deplasa vagoanele.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): vehicul_autopropulsat
+Hiponime (Mai specific): locomotivă_diesel, cal_de_fier, locomotivă_de_manevră, locomotivă_cu_abur...
+Antonime (Opus): Niciunul...
+
+--- Sensul 4 ---
+ID Synset: ENG30-04554684-n
+Literali (Sinonime RO): mașină_de_spălat
+Definiție: Unealtă electrică folosită la spălatul automat al rufelor.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 5 ---
+ID Synset: ENG30-03594945-n
+Literali (Sinonime RO): jeep, mașină_de_teren
+Definiție: Automobil potrivit pentru abordarea zonelor muntoase sau accidentate.
+Scoruri PNO -> Pozitiv: 0.375, Negativ: 0.0, Obiectiv: 0.625
+Hipernime (Mai general): automobil
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 6 ---
+ID Synset: ENG30-03649909-n
+Literali (Sinonime RO): cositoare, mașină_de_tuns_iarba
+Definiție: Mașină cu care se cosește iarba sau se tunde gazonul.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): unealtă
+Hiponime (Mai specific): motocositoare, motocositoare...
+Antonime (Opus): Niciunul...
+
+--- Sensul 7 ---
+ID Synset: ENG30-03101156-n
+Literali (Sinonime RO): mașină_de_gătit, plită
+Definiție: Aparat folosit la gătit.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): instrument_de_bucătărie
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 8 ---
+ID Synset: ENG30-04505036-n
+Literali (Sinonime RO): mașină_de_scris
+Definiție: Mașină operată manual pentru tipărirea mesajelor caracter cu caracter
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): imprimantă_cu_lanț_de_caractere
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 9 ---
+ID Synset: ENG30-04608567-n
+Literali (Sinonime RO): mașină_de_scris, instrument_de_scris
+Definiție: 1. Instrument folosit pentru dactilografierea textelor.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): ustensilă
+Hiponime (Mai specific): cretă, cărbune, creion, marker, pix...
+Antonime (Opus): Niciunul...
+
+--- Sensul 10 ---
+ID Synset: ENG30-03417042-n
+Literali (Sinonime RO): gunoieră, mașină_de_luat_gunoiul
+Definiție: Mașină care adună regulat gunoiul depozitat în locuri speciale
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): autocamion
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 11 ---
+ID Synset: ENG30-03997484-n
+Literali (Sinonime RO): aparat_electric, mașină_electrică
+Definiție: Sistem tehnic acționat de un motor.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină, instrument
+Hiponime (Mai specific): polizor, tocilă, mașină_de_șlefuit, ciocan_perforator, mașină_de_rindeluit...
+Antonime (Opus): Niciunul...
+
+--- Sensul 12 ---
+ID Synset: ENG30-04330340-n
+Literali (Sinonime RO): mașină_de_gătit, sobă, aragaz
+Definiție: Echipament de bucătărie pentru gătit.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): dispozitiv_de_bucătărie
+Hiponime (Mai specific): plită_electrică, aragaz, primus...
+Antonime (Opus): Niciunul...
+
+--- Sensul 13 ---
+ID Synset: ENG30-03702248-n
+Literali (Sinonime RO): mașină-unealtă, mașină
+Definiție: mașină de lucru care prelucrează materiale prin operații mecanice.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): mașină_de_polizat, șeping...
+Antonime (Opus): Niciunul...
+
+--- Sensul 14 ---
+ID Synset: ENG30-03699975-n
+Literali (Sinonime RO): mașină
+Definiție: dispozitiv mecanic sau electric care transmite sau transformă energia
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): aparat
+Hiponime (Mai specific): asamblaj, mașină_de_ambalat, calculator, calandru, automat_bancar...
+Antonime (Opus): Niciunul...
+
+--- Sensul 15 ---
+ID Synset: ENG30-03701640-n
+Literali (Sinonime RO): mașină, mașinărie
+Definiție: Totalitatea pieselor și angrenajelor care alcătuiesc mecanismul unei mașini sau al unui grup de mașini;
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): mașină_de_tocat...
+Antonime (Opus): Niciunul...
+
+--- Sensul 16 ---
+ID Synset: ENG30-02958343-n
+Literali (Sinonime RO): automobil, autovehicul, mașină
+Definiție: Vehicul cu patru (rar trei, șase) roți pneumatice, mișcat de un motor cu explozie internă, cu aburi, cu electricitate sau aer comprimat
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): ambulanță, combi, rablă, taxi, mașină_decapotabilă...
+Antonime (Opus): Niciunul...
+
+--- Sensul 17 ---
+ID Synset: ENG30-03791235-n
+Literali (Sinonime RO): mașină, automobil
+Definiție: Vehicul cu patru (rar trei, șase) roți pneumatice, mișcat de un motor cu explozie internă, cu aburi, cu electricitate sau aer comprimat
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): vehicul_autopropulsat
+Hiponime (Mai specific): vehicul_amfibie, automobil, cart, mini-cart, car_funebru...
+Antonime (Opus): Niciunul...
+
+--- Sensul 18 ---
+ID Synset: ENG30-04097373-n
+Literali (Sinonime RO): mașină_sport, decapotabilă, decapotată
+Definiție: Vehicul autopropulsat, deschis, prevăzut cu scaune rabatabile
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): automobil
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 19 ---
+ID Synset: ENG30-08264759-n
+Literali (Sinonime RO): mașină, mașinărie
+Definiție: (figurativ) (De obicei urmat de determinări)) Ansamblu de mijloace folosite într-un anumit scop (reprobabil).
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): organizație
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 20 ---
+ID Synset: ENG30-10278666-n
+Literali (Sinonime RO): mașină
+Definiție: Epitet dat unui om care lucrează mult și cu mișcări automate, mecanice.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): individ
+Hiponime (Mai specific): om_bionic...
+Antonime (Opus): Niciunul...
+
+--- Sensul 21 ---
+ID Synset: ENG30-03287733-n
+Literali (Sinonime RO): mașină_termică, motor
+Definiție: mașină care transformă energia termică în lucru mecanic
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): motor
+Hiponime (Mai specific): motor_de_avion, motor_de_automobil, motor_auxiliar, generator, motor_cu_ardere_internă...
+Antonime (Opus): Niciunul...
+
+--- Sensul 22 ---
+ID Synset: ENG30-03268790-n
+Literali (Sinonime RO): mașină_electrică
+Definiție: mașină ce funcționează pe bază de electricitate
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): automobil
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 23 ---
+ID Synset: ENG30-03955296-n
+Literali (Sinonime RO): mașină_de_rindeluit
+Definiție: mașină care efectuează în mod mecanic operații cu rindeaua, la care cuțitele au o mișcare de rotație, prelucrarea asemănându-se cu frezarea
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): aparat_electric
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 24 ---
+ID Synset: ENG30-04037443-n
+Literali (Sinonime RO): mașină_de_curse
+Definiție: mașină rapidă care participă la curse
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): automobil
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 25 ---
+ID Synset: ENG30-13248598-n
+Literali (Sinonime RO): mașină_închiriată
+Definiție: Autoturism închiriat de la o firmă de profil
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): teren_arendat
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 26 ---
+ID Synset: ENG30-03141065-n
+Literali (Sinonime RO): mașină_de_poliție
+Definiție: autovehicul cu care polițiștii fac rondul, echipată cu sisteme de comunicație prin radiotelefonie
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): automobil
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 27 ---
+ID Synset: ENG30-03345487-n
+Literali (Sinonime RO): mașină_de_pompieri
+Definiție: Camion de mari dimensiuni care duce pompieri și apă la locul incendiului
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): autocamion
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 28 ---
+ID Synset: ENG30-04285965-n
+Literali (Sinonime RO): mașină_de_teren
+Definiție: Mașină robustă, capabilă să ruleze pe teren accidentat
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): automobil
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 29 ---
+ID Synset: ENG30-04179913-n
+Literali (Sinonime RO): mașină_de_cusut
+Definiție: mașină folosită pentru coaserea confecțiilor, încălțămintei etc.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): articol_de_uz_casnic, mașină_pentru_confecții_textile
+Hiponime (Mai specific): triplok...
+Antonime (Opus): Niciunul...
+
+--- Sensul 30 ---
+ID Synset: ENG30-01537114-v
+Literali (Sinonime RO): spăla_la_mașină
+Definiție: A spăla rufe cu ajutorul mașinii de spălat
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): spăla
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): spăla_manual...
+
+--- Sensul 31 ---
+ID Synset: ENG30-06357985-n
+Literali (Sinonime RO): cod_mașină, limbaj_mașină
+Definiție: set de instrucțiuni codate în așa fel încât să poată fi utilizate de calculator direct, fără traduceri ulterioare
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): cod
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 32 ---
+ID Synset: ENG30-06357985-n
+Literali (Sinonime RO): cod_mașină, limbaj_mașină
+Definiție: set de instrucțiuni codate în așa fel încât să poată fi utilizate de calculator direct, fără traduceri ulterioare
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): cod
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 33 ---
+ID Synset: ENG30-04461696-n
+Literali (Sinonime RO): autocamion_de_depanare, mașină_de_depanare
+Definiție: mașină echipată pentru a ridica și a tracta mașini avariate
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): autocamion
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 34 ---
+ID Synset: ENG30-03509608-n
+Literali (Sinonime RO): mașină_termică
+Definiție: aparat care extrage căldura dintr-un lichid aflat la o temperatură mai mare decât mediul său ambiant; poate fi folosită pentru transferul de căldură de la un rezervor exterior pentru a încălzi o clădire
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): aparat
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 35 ---
+ID Synset: ENG30-03109033-n
+Literali (Sinonime RO): mașină_de_dopuit
+Definiție: mașină folosit pentru a pune dopuri la sticle
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 36 ---
+ID Synset: ENG30-03904909-n
+Literali (Sinonime RO): mașină_de_decorticat, mașină_de_cojit
+Definiție: Instrument pentru cojit legume sau fructe
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): aparat
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 37 ---
+ID Synset: ENG30-03904909-n
+Literali (Sinonime RO): mașină_de_decorticat, mașină_de_cojit
+Definiție: Instrument pentru cojit legume sau fructe
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): aparat
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 38 ---
+ID Synset: ENG30-03100240-n
+Literali (Sinonime RO): mașină_decapotabilă
+Definiție: automobil a cărui capotă se poate strânge sau ridica după necesitate
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): automobil
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 39 ---
+ID Synset: ENG30-04542095-n
+Literali (Sinonime RO): mașină_de_vot
+Definiție: dispozitiv mecanic de înregistrare și numărare a voturilor în mod mecanic
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): dispozitiv_mecanic
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 40 ---
+ID Synset: ENG30-04252653-n
+Literali (Sinonime RO): mașină_de_deszăpezire, utilaj_de_deszăpezire
+Definiție: mașină care îndepărtează zăpada luând-o cu ajutorul unui sistem de palete și aruncând-o cu putere printr-un jgheab
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 41 ---
+ID Synset: ENG30-03625539-n
+Literali (Sinonime RO): mașină_de_tricotat
+Definiție: Mașină de fabricat tricotaje
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină_pentru_confecții_textile
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 42 ---
+ID Synset: ENG30-02861509-n
+Literali (Sinonime RO): mașină_de_filetat
+Definiție: Mașină de realizat fileturi la o piesă
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): sculă
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 43 ---
+ID Synset: ENG30-03766044-n
+Literali (Sinonime RO): freză, mașină_de_frezat
+Definiție: mașină-unealtă la care o piesă de metal fixată pe o masă mobilă înaintează spre niște cuțite în mișcare de rotație care-i dau o anumită formă
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): șeping
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 44 ---
+ID Synset: ENG30-03029812-n
+Literali (Sinonime RO): mașină_de_fabricat_cidru
+Definiție: Dispozitiv care extrage sucul din mere pentru a fabrica cidru de mere
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină_de_tocat
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 45 ---
+ID Synset: ENG30-03511333-n
+Literali (Sinonime RO): mașină_de_tuns_gardul_viu
+Definiție: instrument de grădinărit, folosit pentru a tunde gardul viu
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): unealtă
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 46 ---
+ID Synset: ENG30-03191451-n
+Literali (Sinonime RO): mașină_de_tocat
+Definiție: dispozitiv mecanic pentru tocarea alimentelor
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): dispozitiv_mecanic
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 47 ---
+ID Synset: ENG30-03767966-n
+Literali (Sinonime RO): tocător, mașină_de_tocat
+Definiție: ustensilă de bucătărie care taie mărunt alimente (mai ales carne)
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): ustensilă_de_bucătărie
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 48 ---
+ID Synset: ENG30-04095577-n
+Literali (Sinonime RO): mașină_de_nituit
+Definiție: Mașină care aplică nituri
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 49 ---
+ID Synset: ENG30-02830157-n
+Literali (Sinonime RO): mașină_de_îndoit
+Definiție: unealtă folosită pentru îndoirea materialelor
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): instrument
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 50 ---
+ID Synset: ENG30-02961225-n
+Literali (Sinonime RO): baterie_de_mașină, acumulator
+Definiție: baterie cu plumb și acid utilizată la autovehicule, de obicei având tensiunea de 12 volți și care constituie inima sistemului electric al autovehiculului
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): baterie_cu_acid
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 51 ---
+ID Synset: ENG30-03901229-n
+Literali (Sinonime RO): mașină_de_pavat
+Definiție: Mașină care pune straturi de pavaj
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 52 ---
+ID Synset: ENG30-04504770-n
+Literali (Sinonime RO): mașină_de_scris
+Definiție: Instrument la care se scriu, manual, texte
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): imprimantă
+Hiponime (Mai specific): linotip, monotip...
+Antonime (Opus): Niciunul...
+
+--- Sensul 53 ---
+ID Synset: ENG30-04429613-n
+Literali (Sinonime RO): mașină_de_filat
+Definiție: mașină folosită la fabricarea firelor de bumbac și de lână
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină_de_filat
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 54 ---
+ID Synset: ENG30-02775359-n
+Literali (Sinonime RO): mașină_de_ambalat
+Definiție: mașină care pune obiectele sau substanțele în pungi
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 55 ---
+ID Synset: ENG30-04279172-n
+Literali (Sinonime RO): mașină_de_filat, mașină_de_răsucit
+Definiție: mașină pentru răsucirea firelor textile
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină_pentru_confecții_textile
+Hiponime (Mai specific): roată_de_tors, mașină_de_filat...
+Antonime (Opus): Niciunul...
+
+--- Sensul 56 ---
+ID Synset: ENG30-04279172-n
+Literali (Sinonime RO): mașină_de_filat, mașină_de_răsucit
+Definiție: mașină pentru răsucirea firelor textile
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină_pentru_confecții_textile
+Hiponime (Mai specific): roată_de_tors, mașină_de_filat...
+Antonime (Opus): Niciunul...
+
+--- Sensul 57 ---
+ID Synset: ENG30-06388918-n
+Literali (Sinonime RO): format_citibil_de_către_mașină
+Definiție: Text electronic stocat ca set de caractere și care poate fi afișat într-o varietate de forme
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): text_electronic
+Hiponime (Mai specific): hipertext...
+Antonime (Opus): Niciunul...
+
+--- Sensul 58 ---
+ID Synset: ENG30-03239726-n
+Literali (Sinonime RO): mașină_de_găurit
+Definiție: Unealtă cu vârf ascuțit pentru a face găuri în materiale dure 
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): instrument
+Hiponime (Mai specific): sfredel, foreză, bormașină, alezor, trepan...
+Antonime (Opus): Niciunul...
+
+--- Sensul 59 ---
+ID Synset: ENG30-04417180-n
+Literali (Sinonime RO): mașină_pentru_confecții_textile
+Definiție: Mașină de lucru folosită pentru confecționarea țesăturilor din fibre textile.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): mașină_de_tricotat, război, mașină_de_cusut, mașină_de_filat...
+Antonime (Opus): Niciunul...
+
+--- Sensul 60 ---
+ID Synset: ENG30-03460040-n
+Literali (Sinonime RO): mașină_de_polizat
+Definiție: Mașină-unealtă, cu o piatră abrazivă, pentru curățit, ascuțit, lustruit etc. piese (metalice) prin frecare.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină-unealtă
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 61 ---
+ID Synset: ENG30-04004475-n
+Literali (Sinonime RO): imprimantă, mașină_de_tipărit
+Definiție: Mașină tipografică simplă care tipărește prin presare hârtie pe un zaț acoperit de cerneală
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mașină
+Hiponime (Mai specific): imprimantă_cu_lanț_de_caractere, imprimantă_electrostatică, imprimantă_linie_cu_linie, imprimantă, imprimantă_termică...
+Antonime (Opus): Niciunul...
+
+--- Sensul 62 ---
+ID Synset: ENG30-03207941-n
+Literali (Sinonime RO): mașină_de_spălat_vase
+Definiție: Mașină care spală vase automat
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 63 ---
+ID Synset: ENG30-03250588-n
+Literali (Sinonime RO): mașină_de_șlefuit
+Definiție: Mașină care șlefuiește lemnul
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): aparat_electric
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+============================================================
+CUVÂNT: ALERGA
+============================================================
+
+--- Sensul 1 ---
+ID Synset: ENG30-01086103-v
+Literali (Sinonime RO): alerga
+Definiție: A participa la probele de alergări în cadrul unei competiții sportive.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): [se] înfrunta
+Hiponime (Mai specific): concura, candida...
+Antonime (Opus): Niciunul...
+
+--- Sensul 2 ---
+ID Synset: ENG30-01902405-v
+Literali (Sinonime RO): alerga, fugi, [se] grăbi
+Definiție: A se deplasa cu pași repezi, a se mișca iute într-o direcție, a merge în fugă
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): alerga
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 3 ---
+ID Synset: ENG30-01914947-v
+Literali (Sinonime RO): alerga
+Definiție: a fugi pe o anumită distanță
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): trece
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 4 ---
+ID Synset: ENG30-02058994-v
+Literali (Sinonime RO): goni, alerga
+Definiție: A acționa sau a face pe cineva să acționeze (mai) repede.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): |se| deplasa
+Hiponime (Mai specific): [se] grăbi, [se] năpusti, avânta...
+Antonime (Opus): zăbovi...
+
+--- Sensul 5 ---
+ID Synset: ENG30-02073065-v
+Literali (Sinonime RO): alerga, fugi, goni, zbura
+Definiție: (figurativ (Despre vreme sau despre unități de timp)) A trece repede, a se scurge rapid.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): [se] scurge
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 6 ---
+ID Synset: ENG30-02092309-v
+Literali (Sinonime RO): alerga, fugări, goni
+Definiție: a determina un animal să se miște repede
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.125, Obiectiv: 0.875
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 7 ---
+ID Synset: ENG30-01086965-v
+Literali (Sinonime RO): concura, alerga
+Definiție: a participa la o cursă de cai
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): alerga
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 8 ---
+ID Synset: ENG30-02099829-v
+Literali (Sinonime RO): alerga
+Definiție: A umbla de colo până colo, fără o țintă precisă.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.5, Obiectiv: 0.5
+Hipernime (Mai general): |se| deplasa
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 9 ---
+ID Synset: ENG30-01928390-v
+Literali (Sinonime RO): alerga, face_jogging
+Definiție: a face o alergare ușoară pentru întreținerea sănătății
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): alerga
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 10 ---
+ID Synset: ENG30-01926311-v
+Literali (Sinonime RO): alerga, fugi
+Definiție: A se deplasa cu pași repezi, a se mișca iute într-o direcție, a merge în fugă;
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): accelera
+Hiponime (Mai specific): |se| grăbi, alerga, alerga_sprinten, întrece, alerga...
+Antonime (Opus): Niciunul...
+
+--- Sensul 11 ---
+ID Synset: ENG30-01926878-v
+Literali (Sinonime RO): alerga_sprinten
+Definiție: A alerga ușor și relativ repde
+Scoruri PNO -> Pozitiv: 0.125, Negativ: 0.0, Obiectiv: 0.875
+Hipernime (Mai general): alerga
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+============================================================
+CUVÂNT: MÂNCA
+============================================================
+
+--- Sensul 1 ---
+ID Synset: ENG30-01196802-v
+Literali (Sinonime RO): mânca_tot
+Definiție: a mânca toată mâncarea dintr-o farfurie
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): mânca
+Hiponime (Mai specific): |se| ghiftui...
+Antonime (Opus): Niciunul...
+
+--- Sensul 2 ---
+ID Synset: ENG30-01254324-v
+Literali (Sinonime RO): eroda, mânca
+Definiție: a produce sau a suferi o eroziune; a (se) roade
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.5, Obiectiv: 0.5
+Hipernime (Mai general): îndepărta
+Hiponime (Mai specific): toci...
+Antonime (Opus): Niciunul...
+
+--- Sensul 3 ---
+ID Synset: ENG30-01250908-v
+Literali (Sinonime RO): mânca
+Definiție: A produce o senzație de mâncărime.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.25, Obiectiv: 0.75
+Hipernime (Mai general): întâlni
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 4 ---
+ID Synset: ENG30-01195804-v
+Literali (Sinonime RO): risipi, mânca
+Definiție: (peior.) a risipi, a irosi bani pe ceva, cu cineva etc.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): arunca_banii_pe_fereastră
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 5 ---
+ID Synset: ENG30-00274283-v
+Literali (Sinonime RO): ataca, mânca, |se| roade
+Definiție: A se distruge printr-o acțiune lentă și îndelungată de măcinare, de frecare, datorată acțiunii apei, a aerului sau a unui acid.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): strica
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 6 ---
+ID Synset: ENG30-01179865-v
+Literali (Sinonime RO): mânca
+Definiție: a hrăni animalele cu furaje
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): consuma
+Hiponime (Mai specific): [se] hrăni, paște...
+Antonime (Opus): Niciunul...
+
+--- Sensul 7 ---
+ID Synset: ENG30-01168468-v
+Literali (Sinonime RO): mânca
+Definiție: A mesteca un aliment în gură și a-l înghiți
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): lua_masa, consuma
+Hiponime (Mai specific): uda, [se] ghiftui, devora, ciuguli, înfuleca...
+Antonime (Opus): Niciunul...
+
+--- Sensul 8 ---
+ID Synset: ENG30-02730682-v
+Literali (Sinonime RO): mânca
+Definiție: (Precedat de un pron. pers. la acuz.; despre corp sau despre părți ale corpului) A produce o senzație de mâncărime.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): |se| simți
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 9 ---
+ID Synset: ENG30-01167537-v
+Literali (Sinonime RO): mânca_acasă
+Definiție: a mânca acasă
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): lua_masa
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 10 ---
+ID Synset: ENG30-02702674-v
+Literali (Sinonime RO): mânca, păpa
+Definiție: A costa o anumită sună de bani
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): costa
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 11 ---
+ID Synset: ENG30-01157517-v
+Literali (Sinonime RO): consuma, mânca, dovedi
+Definiție: A întrebuința, a folosi ceva pentru satisfacerea unor trebuințe proprii sau pentru a obține alte produse
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): cheltui
+Hiponime (Mai specific): epuiza, seca, huzuri, arde, cheltui...
+Antonime (Opus): Niciunul...
+
+--- Sensul 12 ---
+ID Synset: ENG30-01766273-v
+Literali (Sinonime RO): frământa, mânca, roade
+Definiție: (figurativ (Despre nenorociri, stări sufletești etc.)) A face pe cineva să sufere
+Scoruri PNO -> Pozitiv: 0.25, Negativ: 0.0, Obiectiv: 0.75
+Hipernime (Mai general): neliniști
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+============================================================
+CUVÂNT: DORMI
+============================================================
+
+--- Sensul 1 ---
+ID Synset: ENG30-00014742-v
+Literali (Sinonime RO): culca, dormi, odihni
+Definiție: A se afla în stare de somn, a fi adormit.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.125, Obiectiv: 0.875
+Hipernime (Mai general): odihni
+Hiponime (Mai specific): dormi_până_târziu, dormi, trage_un_pui_de_somn, hiberna, estiva...
+Antonime (Opus): fi_pe_fază...
+
+--- Sensul 2 ---
+ID Synset: ENG30-00015163-v
+Literali (Sinonime RO): dormi, [se] culca
+Definiție: a dormi îmbrăcat în același pat cu un logodnic
+Scoruri PNO -> Pozitiv: 0.125, Negativ: 0.0, Obiectiv: 0.875
+Hipernime (Mai general): culca
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 3 ---
+ID Synset: ENG30-00015806-v
+Literali (Sinonime RO): dormi_până_târziu
+Definiție: a dormi mai mult decât de obicei
+Scoruri PNO -> Pozitiv: 0.125, Negativ: 0.25, Obiectiv: 0.625
+Hipernime (Mai general): culca
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+============================================================
+CUVÂNT: FRUMOS
+============================================================
+
+--- Sensul 1 ---
+ID Synset: ENG30-00220082-a
+Literali (Sinonime RO): frumos
+Definiție: plăcut, armonios, estetic.
+Scoruri PNO -> Pozitiv: 0.875, Negativ: 0.125, Obiectiv: 0.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 2 ---
+ID Synset: ENG30-01130932-a
+Literali (Sinonime RO): frumos
+Definiție: Expresie: A fi frumos (din partea cuiva) = a se cuveni, a fi cuviincios; a fi lăudabil
+Scoruri PNO -> Pozitiv: 0.75, Negativ: 0.0, Obiectiv: 0.25
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 3 ---
+ID Synset: ENG30-01484342-a
+Literali (Sinonime RO): frumos
+Definiție: feminin și atrăgător
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 4 ---
+ID Synset: ENG30-01052611-a
+Literali (Sinonime RO): frumos_mirositor, odorant, odorifer
+Definiție: Care răspândește un miros plăcut
+Scoruri PNO -> Pozitiv: 0.125, Negativ: 0.0, Obiectiv: 0.875
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 5 ---
+ID Synset: ENG30-00242006-r
+Literali (Sinonime RO): agreabil, drăguț, estetic, frumos, plăcut
+Definiție: De o manieră plăcută ochiului
+Scoruri PNO -> Pozitiv: 0.375, Negativ: 0.0, Obiectiv: 0.625
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): neatrăgător...
+
+--- Sensul 6 ---
+ID Synset: ENG30-00187028-r
+Literali (Sinonime RO): frumos
+Definiție: În mod plăcut, armonios, estetic
+Scoruri PNO -> Pozitiv: 0.25, Negativ: 0.0, Obiectiv: 0.75
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 7 ---
+ID Synset: ENG30-00431396-r
+Literali (Sinonime RO): frumos
+Definiție: De o manieră frumoasă
+Scoruri PNO -> Pozitiv: 0.5, Negativ: 0.0, Obiectiv: 0.5
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 8 ---
+ID Synset: ENG30-00069531-a
+Literali (Sinonime RO): frumos
+Definiție: care privește frumosul, care corespunde cerințelor esteticii
+Scoruri PNO -> Pozitiv: 0.625, Negativ: 0.0, Obiectiv: 0.375
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 9 ---
+ID Synset: ENG30-02519666-v
+Literali (Sinonime RO): [se] comporta_frumos, [se] purta_frumos
+Definiție: A avea o conduită manierată
+Scoruri PNO -> Pozitiv: 0.375, Negativ: 0.0, Obiectiv: 0.625
+Hipernime (Mai general): acționa
+Hiponime (Mai specific): merge...
+Antonime (Opus): face_prostii...
+
+--- Sensul 10 ---
+ID Synset: ENG30-02519666-v
+Literali (Sinonime RO): [se] comporta_frumos, [se] purta_frumos
+Definiție: A avea o conduită manierată
+Scoruri PNO -> Pozitiv: 0.375, Negativ: 0.0, Obiectiv: 0.625
+Hipernime (Mai general): acționa
+Hiponime (Mai specific): merge...
+Antonime (Opus): face_prostii...
+
+--- Sensul 11 ---
+ID Synset: ENG30-01800764-a
+Literali (Sinonime RO): frumos
+Definiție: (Despre timp) Senin, calm ( din punctul de vedere al stării atmosferice).
+Scoruri PNO -> Pozitiv: 0.625, Negativ: 0.0, Obiectiv: 0.375
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 12 ---
+ID Synset: ENG30-00217728-a
+Literali (Sinonime RO): frumos
+Definiție: Care place pentru armonia liniilor, mișcărilor, culorilor etc.
+Scoruri PNO -> Pozitiv: 0.75, Negativ: 0.0, Obiectiv: 0.25
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): urât...
+
+============================================================
+CUVÂNT: RAPID
+============================================================
+
+--- Sensul 1 ---
+ID Synset: ENG30-00085811-r
+Literali (Sinonime RO): ager, agil, iute, repede, sprinten, vioi, rapid
+Definiție: cu mișcări rapide
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): agale...
+
+--- Sensul 2 ---
+ID Synset: ENG30-00105603-r
+Literali (Sinonime RO): grabnic, prompt, rapid
+Definiție: fără întârziere
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 3 ---
+ID Synset: ENG30-00053274-r
+Literali (Sinonime RO): iute, rapid, repede
+Definiție: cu repeziciune
+Scoruri PNO -> Pozitiv: 0.25, Negativ: 0.0, Obiectiv: 0.75
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 4 ---
+ID Synset: ENG30-04054213-n
+Literali (Sinonime RO): tranzit_rapid
+Definiție: sistem de tranzit public urban, care folosește metroul sau trenurile suspendate
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 5 ---
+ID Synset: ENG30-13260510-n
+Literali (Sinonime RO): ban_câștigat_rapid, bani_câștigați_rapid
+Definiție: Câștig ușor
+Scoruri PNO -> Pozitiv: 0.25, Negativ: 0.0, Obiectiv: 0.75
+Hipernime (Mai general): câștig_net
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 6 ---
+ID Synset: ENG30-13260510-n
+Literali (Sinonime RO): ban_câștigat_rapid, bani_câștigați_rapid
+Definiție: Câștig ușor
+Scoruri PNO -> Pozitiv: 0.25, Negativ: 0.0, Obiectiv: 0.75
+Hipernime (Mai general): câștig_net
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 7 ---
+ID Synset: ENG30-14907867-n
+Literali (Sinonime RO): oțel_rapid
+Definiție: aliaj de oțel care rămâne tare chiar și la temperaturi înalte
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): oțel_de_scule
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 8 ---
+ID Synset: ENG30-00874226-a
+Literali (Sinonime RO): trepidant, rapid
+Definiție: care se mișcă repede și energic
+Scoruri PNO -> Pozitiv: 0.375, Negativ: 0.0, Obiectiv: 0.625
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 9 ---
+ID Synset: ENG30-03324629-n
+Literali (Sinonime RO): reactor_rapid
+Definiție: Reactor care folosește neutroni rapizi pentru a întreține reacția de fisiune în lanț, caracterizat prin lipsa materialului de moderare; acesta funcționează cu combustibil (uraniu) puternic îmbogățit sau plutoniu, pentru a reduce procentul de U-238 care ar captura neutronii rapizi
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): reactor
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): reactor_termal...
+
+--- Sensul 10 ---
+ID Synset: ENG30-03324502-n
+Literali (Sinonime RO): culoar_rapid
+Definiție: Linie de trafic pe care vehiculele se mișcă rapid
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): bandă
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): banda_întâi...
+
+--- Sensul 11 ---
+ID Synset: ENG30-00260328-r
+Literali (Sinonime RO): fugitiv, rapid, sumar, superficial
+Definiție: De o manieră fugitivă, fără a da multă atenție
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 12 ---
+ID Synset: ENG30-00086685-r
+Literali (Sinonime RO): cel_mai_rapid
+Definiție: Cel mai rapid
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 13 ---
+ID Synset: ENG30-01144230-a
+Literali (Sinonime RO): accelerat, rapid
+Definiție: Care se mișcă, se desfășoară, se execută cu repeziciune.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.25, Obiectiv: 0.75
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 14 ---
+ID Synset: ENG30-00979366-a
+Literali (Sinonime RO): rapid
+Definiție: realizat repede, fără întârziere
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...
+
+--- Sensul 15 ---
+ID Synset: ENG30-00976508-a
+Literali (Sinonime RO): rapid
+Definiție: Care se mișcă, se desfășoară, se execută cu repeziciune.
+Scoruri PNO -> Pozitiv: 0.0, Negativ: 0.0, Obiectiv: 1.0
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): agale...
+
+--- Sensul 16 ---
+ID Synset: ENG30-00979862-a
+Literali (Sinonime RO): rapid
+Definiție: care are viteză mare
+Scoruri PNO -> Pozitiv: 0.5, Negativ: 0.0, Obiectiv: 0.5
+Hipernime (Mai general): Niciunul
+Hiponime (Mai specific): Niciunul...
+Antonime (Opus): Niciunul...

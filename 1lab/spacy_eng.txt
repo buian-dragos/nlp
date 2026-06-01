@@ -1,0 +1,270 @@
+
+================================================================================
+Text 1 Analysis: Hey there! How's it going? I'm excited for the weekend.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Hey             hey             hey             INTJ   UH     ROOT       Hey
+there           there           there           ADV    RB     advmod     Hey
+!               !               !               PUNCT  .      punct      Hey
+How             how             how             SCONJ  WRB    advmod     going
+'s              's              be              AUX    VBZ    aux        going
+it              it              it              PRON   PRP    nsubj      going
+going           go              go              VERB   VBG    ROOT       going
+?               ?               ?               PUNCT  .      punct      going
+I               i               I               PRON   PRP    nsubj      'm
+'m              'm              be              AUX    VBP    ROOT       'm
+excited         excit           excited         ADJ    JJ     acomp      'm
+for             for             for             ADP    IN     prep       excited
+the             the             the             DET    DT     det        weekend
+weekend         weekend         weekend         NOUN   NN     pobj       for
+.               .               .               PUNCT  .      punct      'm
+
+--- Noun Chunks ---
+- it (Root: it, Dep: nsubj)
+- I (Root: I, Dep: nsubj)
+- the weekend (Root: weekend, Dep: pobj)
+
+--- Named Entities (NER) ---
+- the weekend (DATE)
+
+================================================================================
+Text 2 Analysis: The cat chased the mouse. It hid under the sofa.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+The             the             the             DET    DT     det        cat
+cat             cat             cat             NOUN   NN     nsubj      chased
+chased          chase           chase           VERB   VBD    ROOT       chased
+the             the             the             DET    DT     det        mouse
+mouse           mous            mouse           NOUN   NN     dobj       chased
+.               .               .               PUNCT  .      punct      chased
+It              it              it              PRON   PRP    nsubj      hid
+hid             hid             hide            VERB   VBD    ROOT       hid
+under           under           under           ADP    IN     prep       hid
+the             the             the             DET    DT     det        sofa
+sofa            sofa            sofa            NOUN   NN     pobj       under
+.               .               .               PUNCT  .      punct      hid
+
+--- Noun Chunks ---
+- The cat (Root: cat, Dep: nsubj)
+- the mouse (Root: mouse, Dep: dobj)
+- It (Root: It, Dep: nsubj)
+- the sofa (Root: sofa, Dep: pobj)
+
+--- Named Entities (NER) ---
+No named entities found.
+
+================================================================================
+Text 3 Analysis: Spacy is amazing for NLP tasks. It simplifies things a lot.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Spacy           spaci           spacy           NOUN   NN     nsubj      is
+is              is              be              AUX    VBZ    ROOT       is
+amazing         amaz            amazing         ADJ    JJ     acomp      is
+for             for             for             ADP    IN     prep       is
+NLP             nlp             NLP             PROPN  NNP    compound   tasks
+tasks           task            task            NOUN   NNS    pobj       for
+.               .               .               PUNCT  .      punct      is
+It              it              it              PRON   PRP    nsubj      simplifies
+simplifies      simplifi        simplify        VERB   VBZ    ROOT       simplifies
+things          thing           thing           NOUN   NNS    dobj       simplifies
+a               a               a               DET    DT     det        lot
+lot             lot             lot             NOUN   NN     npadvmod   simplifies
+.               .               .               PUNCT  .      punct      simplifies
+
+--- Noun Chunks ---
+- Spacy (Root: Spacy, Dep: nsubj)
+- NLP tasks (Root: tasks, Dep: pobj)
+- It (Root: It, Dep: nsubj)
+- things (Root: things, Dep: dobj)
+
+--- Named Entities (NER) ---
+- Spacy (PERSON)
+- NLP (ORG)
+
+================================================================================
+Text 4 Analysis: We visited New York last summer. It was crowded but fun.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+We              we              we              PRON   PRP    nsubj      visited
+visited         visit           visit           VERB   VBD    ROOT       visited
+New             new             New             PROPN  NNP    compound   York
+York            york            York            PROPN  NNP    dobj       visited
+last            last            last            ADJ    JJ     amod       summer
+summer          summer          summer          NOUN   NN     npadvmod   visited
+.               .               .               PUNCT  .      punct      visited
+It              it              it              PRON   PRP    nsubj      was
+was             wa              be              AUX    VBD    ROOT       was
+crowded         crowd           crowded         ADJ    JJ     acomp      was
+but             but             but             CCONJ  CC     cc         crowded
+fun             fun             fun             NOUN   NN     conj       crowded
+.               .               .               PUNCT  .      punct      was
+
+--- Noun Chunks ---
+- We (Root: We, Dep: nsubj)
+- New York (Root: York, Dep: dobj)
+- It (Root: It, Dep: nsubj)
+
+--- Named Entities (NER) ---
+- New York (GPE)
+- last summer (DATE)
+
+================================================================================
+Text 5 Analysis: Coffee wakes me up. Tea relaxes me in the evenings.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Coffee          coffe           coffee          NOUN   NN     nsubj      wakes
+wakes           wake            wake            VERB   VBZ    ROOT       wakes
+me              me              I               PRON   PRP    dobj       wakes
+up              up              up              ADP    RP     prt        wakes
+.               .               .               PUNCT  .      punct      wakes
+Tea             tea             Tea             PROPN  NNP    nsubj      relaxes
+relaxes         relax           relax           VERB   VBZ    ROOT       relaxes
+me              me              I               PRON   PRP    dobj       relaxes
+in              in              in              ADP    IN     prep       relaxes
+the             the             the             DET    DT     det        evenings
+evenings        even            evening         NOUN   NNS    pobj       in
+.               .               .               PUNCT  .      punct      relaxes
+
+--- Noun Chunks ---
+- Coffee (Root: Coffee, Dep: nsubj)
+- me (Root: me, Dep: dobj)
+- Tea (Root: Tea, Dep: nsubj)
+- me (Root: me, Dep: dobj)
+- the evenings (Root: evenings, Dep: pobj)
+
+--- Named Entities (NER) ---
+No named entities found.
+
+================================================================================
+Text 6 Analysis: Apple Inc. announced a new iPhone on Tuesday in California.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Apple           appl            Apple           PROPN  NNP    compound   Inc.
+Inc.            inc.            Inc.            PROPN  NNP    nsubj      announced
+announced       announc         announce        VERB   VBD    ROOT       announced
+a               a               a               DET    DT     det        iPhone
+new             new             new             ADJ    JJ     amod       iPhone
+iPhone          iphon           iPhone          PROPN  NNP    dobj       announced
+on              on              on              ADP    IN     prep       announced
+Tuesday         tuesday         Tuesday         PROPN  NNP    pobj       on
+in              in              in              ADP    IN     prep       announced
+California      california      California      PROPN  NNP    pobj       in
+.               .               .               PUNCT  .      punct      announced
+
+--- Noun Chunks ---
+- Apple Inc. (Root: Inc., Dep: nsubj)
+- a new iPhone (Root: iPhone, Dep: dobj)
+- Tuesday (Root: Tuesday, Dep: pobj)
+- California (Root: California, Dep: pobj)
+
+--- Named Entities (NER) ---
+- Apple Inc. (ORG)
+- Tuesday (DATE)
+- California (GPE)
+
+================================================================================
+Text 7 Analysis: The quick brown fox jumps over the lazy dog.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+The             the             the             DET    DT     det        fox
+quick           quick           quick           ADJ    JJ     amod       fox
+brown           brown           brown           ADJ    JJ     amod       fox
+fox             fox             fox             NOUN   NN     nsubj      jumps
+jumps           jump            jump            VERB   VBZ    ROOT       jumps
+over            over            over            ADP    IN     prep       jumps
+the             the             the             DET    DT     det        dog
+lazy            lazi            lazy            ADJ    JJ     amod       dog
+dog             dog             dog             NOUN   NN     pobj       over
+.               .               .               PUNCT  .      punct      jumps
+
+--- Noun Chunks ---
+- The quick brown fox (Root: fox, Dep: nsubj)
+- the lazy dog (Root: dog, Dep: pobj)
+
+--- Named Entities (NER) ---
+No named entities found.
+
+================================================================================
+Text 8 Analysis: Elon Musk acquired Twitter for 44 billion dollars in 2022.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Elon            elon            Elon            PROPN  NNP    compound   Musk
+Musk            musk            Musk            PROPN  NNP    nsubj      acquired
+acquired        acquir          acquire         VERB   VBD    ROOT       acquired
+Twitter         twitter         Twitter         PROPN  NNP    dobj       acquired
+for             for             for             ADP    IN     prep       acquired
+44              44              44              NUM    CD     compound   billion
+billion         billion         billion         NUM    CD     nummod     dollars
+dollars         dollar          dollar          NOUN   NNS    pobj       for
+in              in              in              ADP    IN     prep       acquired
+2022            2022            2022            NUM    CD     pobj       in
+.               .               .               PUNCT  .      punct      acquired
+
+--- Noun Chunks ---
+- Elon Musk (Root: Musk, Dep: nsubj)
+- Twitter (Root: Twitter, Dep: dobj)
+- 44 billion dollars (Root: dollars, Dep: pobj)
+
+--- Named Entities (NER) ---
+- Elon Musk (PERSON)
+- Twitter (PERSON)
+- 44 billion dollars (MONEY)
+- 2022 (DATE)
+
+================================================================================
+Text 9 Analysis: If it rains tomorrow, the committee will cancel the picnic.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+If              if              if              SCONJ  IN     mark       rains
+it              it              it              PRON   PRP    nsubj      rains
+rains           rain            rain            VERB   VBZ    advcl      cancel
+tomorrow        tomorrow        tomorrow        NOUN   NN     npadvmod   rains
+,               ,               ,               PUNCT  ,      punct      cancel
+the             the             the             DET    DT     det        committee
+committee       committe        committee       NOUN   NN     nsubj      cancel
+will            will            will            AUX    MD     aux        cancel
+cancel          cancel          cancel          VERB   VB     ROOT       cancel
+the             the             the             DET    DT     det        picnic
+picnic          picnic          picnic          NOUN   NN     dobj       cancel
+.               .               .               PUNCT  .      punct      cancel
+
+--- Noun Chunks ---
+- it (Root: it, Dep: nsubj)
+- the committee (Root: committee, Dep: nsubj)
+- the picnic (Root: picnic, Dep: dobj)
+
+--- Named Entities (NER) ---
+- tomorrow (DATE)
+
+================================================================================
+Text 10 Analysis: Mount Everest is the highest mountain on Earth.
+================================================================================
+Token           Stem            Lemma           POS    TAG    Dep        Head
+--------------------------------------------------------------------------------
+Mount           mount           Mount           PROPN  NNP    compound   Everest
+Everest         everest         Everest         PROPN  NNP    nsubj      is
+is              is              be              AUX    VBZ    ROOT       is
+the             the             the             DET    DT     det        mountain
+highest         highest         high            ADJ    JJS    amod       mountain
+mountain        mountain        mountain        NOUN   NN     attr       is
+on              on              on              ADP    IN     prep       mountain
+Earth           earth           Earth           PROPN  NNP    pobj       on
+.               .               .               PUNCT  .      punct      is
+
+--- Noun Chunks ---
+- Mount Everest (Root: Everest, Dep: nsubj)
+- the highest mountain (Root: mountain, Dep: attr)
+- Earth (Root: Earth, Dep: pobj)
+
+--- Named Entities (NER) ---
+- Mount Everest (LOC)
+- Earth (LOC)

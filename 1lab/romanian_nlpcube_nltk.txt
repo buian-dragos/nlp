@@ -1,0 +1,190 @@
+
+==========================================================================================
+Analiza Textului 1: Salut! Ce mai faci? N-am mai vorbit de mult timp.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Salut           salut           salut           NOUN   Ncms-n root       0    Definite=Ind|Gender=Masc|Number=Sing
+!               !               !               PUNCT  EXCL   punct      1    _
+Ce              ce              ce              PRON   Pw3--r obj        5    Case=Acc,Nom|Person=3|PronType=Int,Rel
+mai             mai             mai             ADV    Rp     advmod     5    _
+faci            fac             face            VERB   Vmip2s parataxis  1    Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+?               ?               ?               PUNCT  QUEST  punct      5    _
+N-              n-              nu              PART   Qz-y   advmod     4    Polarity=Neg|Variant=Short
+am              am              avea            AUX    Va--1  aux        4    Person=1
+mai             mai             mai             ADV    Rp     advmod     4    _
+vorbit          vorbit          vorbi           VERB   Vmp--sm root       0    Gender=Masc|Number=Sing|VerbForm=Part
+de              de              de              ADP    Spsa   case       7    AdpType=Prep|Case=Acc
+mult            mult            mult            DET    Di3msr det        7    Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind
+timp            timp            timp            NOUN   Ncms-n obl        4    Definite=Ind|Gender=Masc|Number=Sing
+.               .               .               PUNCT  PERIOD punct      4    _
+
+==========================================================================================
+Analiza Textului 2: Pisica doarme pe canapea. Este foarte liniștită azi.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Pisica          pisic           pisică          NOUN   Ncfsry nsubj      2    Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing
+doarme          doarm           dormi           VERB   Vmip3s root       0    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+pe              pe              pe              ADP    Spsa   case       4    AdpType=Prep|Case=Acc
+canapea         canap           canape          NOUN   Ncfsry obl        2    Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing
+.               .               .               PUNCT  PERIOD punct      8    _
+Este            este            fi              AUX    Vmip3s cop        8    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+foarte          foart           foarte          ADV    Rp     advmod     8    _
+liniștită       linișt          liniștit        ADJ    Afpfsrn conj       2    Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing
+azi             azi             azi             ADV    Rgp    advmod     8    Degree=Pos
+.               .               .               PUNCT  PERIOD punct      2    _
+
+==========================================================================================
+Analiza Textului 3: Mâine mergem la munte. Vremea va fi frumoasă. Abia aștept!
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Mâine           mâin            mâine           ADV    Rgp    advmod     2    Degree=Pos
+mergem          merg            merge           VERB   Vmip1p root       0    Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+la              la              la              ADP    Spsa   case       4    AdpType=Prep|Case=Acc
+munte           munt            munte           NOUN   Ncms-n obl        2    Definite=Ind|Gender=Masc|Number=Sing
+.               .               .               PUNCT  COMMA  punct      9    _
+Vremea          vrem            vreme           NOUN   Ncfsry nsubj      9    Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing
+va              va              vrea            AUX    Va--3s aux        9    Number=Sing|Person=3
+fi              fi              fi              AUX    Vmnp   cop        9    Tense=Pres|VerbForm=Inf
+frumoasă        frumoas         frumos          ADJ    Afpfsrn conj       2    Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing
+.               .               .               PUNCT  COMMA  punct      12   _
+Abia            abi             abia            ADV    Rgp    advmod     12   Degree=Pos
+aștept          aștept          aștepta         VERB   Vmip1s conj       2    Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+!               !               !               PUNCT  EXCL   punct      2    _
+
+==========================================================================================
+Analiza Textului 4: Cafeaua este fierbinte și aromată. Îmi place să o beau dimineața devreme.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Cafeaua         cafeau          cafea           NOUN   Ncfsry nsubj      3    Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing
+este            este            fi              AUX    Vmip3s cop        3    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+fierbinte       fierbint        fierbinte       ADJ    Afpfsrn root       0    Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing
+și              și              și              CCONJ  Crssp  cc         5    Polarity=Pos
+aromată         arom            aromat          ADJ    Afpfsrn conj       3    Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing
+.               .               .               PUNCT  COMMA  punct      8    _
+Îmi             îmi             eu              PRON   Pp1-sd--------w iobj       8    Case=Dat|Number=Sing|Person=1|PronType=Prs|Strength=Weak
+place           plac            plăcea          VERB   Vmip3s conj       3    Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+să              să              să              PART   Qs     mark       11   Mood=Sub
+o               o               el              PRON   Pp3fsa--------w obj        11   Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Strength=Weak
+beau            beau            bea             VERB   Vmip1s csubj      8    Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+dimineața       dimineaț        dimineața       ADV    Rgp    advmod     11   Degree=Pos
+devreme         devrem          devreme         ADV    Rgp    fixed      12   Degree=Pos
+.               .               .               PUNCT  PERIOD punct      3    _
+
+==========================================================================================
+Analiza Textului 5: Mi-e foame, hai să mâncăm ceva bun. Cunosc un restaurant nou în centru.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Mi-e            mi-             eu              PRON   Pp1-sd--y-----w iobj       2    Case=Dat|Number=Sing|Person=1|PronType=Prs|Strength=Weak|Variant=Short
+foame           foam            foame           NOUN   Ncfs-n root       0    Definite=Ind|Gender=Fem|Number=Sing
+,               ,               ,               PUNCT  COMMA  punct      4    _
+hai             hai             hai             INTJ   I      conj       2    _
+să              să              să              PART   Qs     mark       6    Mood=Sub
+mâncăm          mânc            mânca           VERB   Vmip1p ccomp      4    Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+ceva            cev             ceva            PRON   Pi3-sr obj        6    Case=Acc,Nom|Number=Sing|Person=3|PronType=Ind
+bun             bun             bun             ADJ    Afpms-n amod       7    Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing
+.               .               .               PUNCT  PERIOD punct      2    _
+Cunosc          cunosc          cunoaște        VERB   Vmip1s root       0    Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+un              un              un              DET    Timsr  det        3    Case=Acc,Nom|Gender=Masc|Number=Sing|PronType=Ind
+restaurant      restaur         restaurant      NOUN   Ncms-n obj        1    Definite=Ind|Gender=Masc|Number=Sing
+nou             nou             nou             ADJ    Afpms-n amod       3    Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing
+în              în              în              ADP    Spsa   case       6    AdpType=Prep|Case=Acc
+centru          centru          centru          NOUN   Ncms-n obl        1    Definite=Ind|Gender=Masc|Number=Sing
+.               .               .               PUNCT  PERIOD punct      1    _
+
+==========================================================================================
+Analiza Textului 6: Maria a vizitat Parisul anul trecut și a fost impresionată de Turnul Eiffel.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Maria           mari            Maria           PROPN  Np     nsubj      3    _
+a               a               avea            AUX    Va--3s aux        3    Number=Sing|Person=3
+vizitat         vizit           vizita          VERB   Vmp--sm root       0    Gender=Masc|Number=Sing|VerbForm=Part
+Parisul         paris           Paris           PROPN  Np     obj        3    _
+anul            an              an              NOUN   Ncmsry obl        3    Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing
+trecut          trecut          trecut          ADJ    Afpms-n amod       5    Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing
+și              și              și              CCONJ  Crssp  cc         10   Polarity=Pos
+a               a               avea            AUX    Va--3s aux        10   Number=Sing|Person=3
+fost            fost            fi              AUX    Vap--sm aux:pass   10   Gender=Masc|Number=Sing|VerbForm=Part
+impresionată    impresion       impresiona      VERB   Vmp--sf conj       3    Gender=Fem|Number=Sing|VerbForm=Part
+de              de              de              ADP    Spsa   case       12   AdpType=Prep|Case=Acc
+Turnul          turn            turn            NOUN   Ncmsry nmod:agent 10   Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing
+Eiffel          eiffel          Eiffel          PROPN  Np     flat       12   _
+.               .               .               PUNCT  PERIOD punct      3    _
+
+==========================================================================================
+Analiza Textului 7: Guvernul României a adoptat o nouă lege privind educația națională.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Guvernul        guvern          guvern          NOUN   Ncmsry nsubj      4    Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing
+României        român           România         PROPN  Npfsoy nmod       1    Case=Dat,Gen|Definite=Def|Gender=Fem|Number=Sing
+a               a               avea            AUX    Va--3s aux        4    Number=Sing|Person=3
+adoptat         adopt           adopta          VERB   Vmp--sm root       0    Gender=Masc|Number=Sing|VerbForm=Part
+o               o               un              DET    Tifsr  det        7    Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind
+nouă            nou             nou             ADJ    Afpfsrn amod       7    Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing
+lege            leg             lege            NOUN   Ncfsrn obj        4    Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing
+privind         priv            privind         ADP    Spsa   case       9    AdpType=Prep|Case=Acc
+educația        educaț          educație        NOUN   Ncfsry nmod       7    Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Sing
+națională       național        național        ADJ    Afpfsrn amod       9    Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing
+.               .               .               PUNCT  PERIOD punct      4    _
+
+==========================================================================================
+Analiza Textului 8: Câinele vecinului meu latră în fiecare seară la lună.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Câinele         câin            câine           NOUN   Ncmsry nsubj      4    Case=Acc,Nom|Definite=Def|Gender=Masc|Number=Sing
+vecinului       vecin           vecin           NOUN   Ncmsoy nmod       1    Case=Dat,Gen|Definite=Def|Gender=Masc|Number=Sing
+meu             meu             meu             DET    Ds1ms-s det        2    Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+latră           latr            lătra           VERB   Vmip3  root       0    Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin
+în              în              în              ADP    Spsa   case       7    AdpType=Prep|Case=Acc
+fiecare         fiec            fiecare         DET    Di3-sr---e det        7    Case=Acc,Nom|Number=Sing|Person=3|Position=Prenom|PronType=Ind
+seară           sear            seară           NOUN   Ncfsrn obl        4    Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing
+la              la              la              ADP    Spsa   case       9    AdpType=Prep|Case=Acc
+lună            lun             lună            NOUN   Ncfsrn obl        4    Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing
+.               .               .               PUNCT  PERIOD punct      4    _
+
+==========================================================================================
+Analiza Textului 9: Am cumpărat două mere, trei pere și o sticlă cu apă minerală.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Am              am              avea            AUX    Va--1  aux        2    Person=1
+cumpărat        cumpăr          cumpăra         VERB   Vmp--sm root       0    Gender=Masc|Number=Sing|VerbForm=Part
+două            dou             doi             NUM    Mcfp-l nummod     4    Gender=Fem|Number=Plur|NumForm=Word|NumType=Card
+mere            mer             măr             NOUN   Ncfp-n obj        2    Definite=Ind|Gender=Fem|Number=Plur
+,               ,               ,               PUNCT  COMMA  punct      7    _
+trei            tre             trei            NUM    Mc-p-l nummod     7    Number=Plur|NumForm=Word|NumType=Card
+pere            per             peră            NOUN   Ncfp-n conj       4    Definite=Ind|Gender=Fem|Number=Plur
+și              și              și              CCONJ  Crssp  cc         10   Polarity=Pos
+o               o               un              DET    Tifsr  det        10   Case=Acc,Nom|Gender=Fem|Number=Sing|PronType=Ind
+sticlă          sticl           sticlă          NOUN   Ncfsrn conj       4    Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing
+cu              cu              cu              ADP    Spsa   case       12   AdpType=Prep|Case=Acc
+apă             apă             apă             NOUN   Ncfsrn nmod       10   Case=Acc,Nom|Definite=Ind|Gender=Fem|Number=Sing
+minerală        mineral         mineral         ADJ    Afpfsrn amod       12   Case=Acc,Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing
+.               .               .               PUNCT  PERIOD punct      2    _
+
+==========================================================================================
+Analiza Textului 10: Dacă vei învăța mai mult, rezultatele tale la examen vor fi excelente.
+==========================================================================================
+Token           Stem            Lemma           UPOS   XPOS   Dep        Head Morphology (Attrs)
+------------------------------------------------------------------------------------------
+Dacă            dac             dacă            SCONJ  Csssp  mark       3    Polarity=Pos
+vei             vei             vrea            AUX    Va--2s aux        3    Number=Sing|Person=2
+învăța          învăț           învăța          VERB   Vmnp   advcl      13   Tense=Pres|VerbForm=Inf
+mai             mai             mai             ADV    Rp     advmod     5    _
+mult            mult            mult            ADV    Rgp    advmod     3    Degree=Pos
+,               ,               ,               PUNCT  COMMA  punct      3    _
+rezultatele     rezult          rezultat        NOUN   Ncfpry nsubj      13   Case=Acc,Nom|Definite=Def|Gender=Fem|Number=Plur
+tale            tal             tău             DET    Ds2fp-s det        7    Gender=Fem|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+la              la              la              ADP    Spsa   case       10   AdpType=Prep|Case=Acc
+examen          examen          examen          NOUN   Ncms-n nmod       7    Definite=Ind|Gender=Masc|Number=Sing
+vor             vor             vrea            AUX    Va--3p aux        13   Number=Plur|Person=3
+fi              fi              fi              AUX    Vmnp   cop        13   Tense=Pres|VerbForm=Inf
+excelente       excelent        excelent        ADJ    Afpfp-n root       0    Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur
+.               .               .               PUNCT  PERIOD punct      13   _
