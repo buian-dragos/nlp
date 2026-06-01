@@ -1,0 +1,9 @@
+huggingface-hub>=0.21.2,<1.0
+transformers==4.44.0
+tokenizers==0.19.1
+datasets==2.20.0
+evaluate==0.4.2
+bert-score==0.3.13
+sentencepiece
+accelerate>=0.33.0
+protobuf

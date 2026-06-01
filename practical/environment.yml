@@ -1,0 +1,28 @@
+name: nlp-summarization-en-ro
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.2
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - pyyaml
+  - tqdm
+  - pip:
+      - huggingface-hub>=0.21.2,<1.0
+      - transformers==4.44.0
+      - tokenizers==0.19.1
+      - datasets==2.20.0
+      - evaluate==0.4.2
+      - bert-score==0.3.13
+      - sentencepiece
+      - accelerate>=0.33.0
+      - protobuf
+      # summac pins old huggingface-hub; install separately with:
+      #   python -m pip install summac --no-deps
