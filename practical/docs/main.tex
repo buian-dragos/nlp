@@ -1,0 +1,156 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+
+\title{Bilingual English--Romanian Text Summarization}
+\author{Buian Dragos}
+
+\begin{document}
+\maketitle
+
+% ---------------------------------------------------------------------------
+\section{Problem statement}
+% ---------------------------------------------------------------------------
+
+Abstractive text summarization produces a short summary that captures the main ideas of a longer document.
+In this project we address \textbf{bilingual summarization} for \textbf{English (EN)} and \textbf{Romanian (RO)}: given a source article, the system must generate a concise summary in the same language.
+
+The task is challenging because:
+\begin{itemize}
+  \item summaries must be fluent and informative (semantic quality);
+  \item generated text should remain faithful to the source (factual consistency);
+  \item a single multilingual model must handle both languages and multiple dataset formats.
+\end{itemize}
+
+% ---------------------------------------------------------------------------
+\section{Proposed solution}
+% ---------------------------------------------------------------------------
+
+\subsection{Theoretical aspects}
+
+We treat summarization as \textbf{sequence-to-sequence (seq2seq) learning}.
+Let $x = (x_1, \ldots, x_n)$ be the tokenized source document and $y = (y_1, \ldots, y_m)$ the reference summary.
+The model learns parameters $\theta$ that maximize the conditional likelihood:
+\[
+  \mathcal{L}(\theta) = \sum_{(x,y) \in \mathcal{D}} \log P_\theta(y \mid x)
+  = \sum_{(x,y) \in \mathcal{D}} \sum_{t=1}^{m} \log P_\theta(y_t \mid y_{<t}, x).
+\]
+
+We fine-tune \textbf{mT5} (\texttt{google/mt5-base}), a multilingual T5 encoder--decoder, on a mixed EN+RO training set.
+At inference time we use \textbf{beam search} (beam width $B=4$) to approximate
+\[
+  \hat{y} = \arg\max_{y} P_\theta(y \mid x).
+\]
+
+\textbf{Semantic quality} is measured with \textbf{BERTScore} (contextual embedding similarity between prediction and reference).
+\textbf{Factual consistency} is measured with \textbf{SummaC}, which scores whether the summary is supported by the source.
+
+\subsection{Data sets used in the application}
+
+All corpora are loaded via Hugging Face \texttt{datasets} and normalized to a common schema:
+\texttt{id}, \texttt{language}, \texttt{dataset}, \texttt{source}, \texttt{reference}.
+If a corpus lacks \texttt{validation} or \texttt{test}, splits are created automatically (e.g.\ 80/10/10 from train).
+
+\begin{center}
+\begin{tabular}{llll}
+  \hline
+  Language & Dataset & HF id & Fields mapped \\
+  \hline
+  EN & CNN/DailyMail & \texttt{cnn\_dailymail} & article $\rightarrow$ source, highlights $\rightarrow$ reference \\
+  EN & XSum & \texttt{xsum} & document $\rightarrow$ source, summary $\rightarrow$ reference \\
+  RO & ReaderBench & \texttt{readerbench/ro-text-summarization} & Content, Summary \\
+  RO & MassiveSumm (RO only) & \texttt{MaLA-LM/MassiveSumm\_long} & text, summary \\
+  \hline
+\end{tabular}
+\end{center}
+
+Training, validation, and test examples from all selected datasets are \textbf{concatenated and shuffled} (with optional per-dataset caps for smoke runs).
+
+\subsection{Application}
+
+The application is a command-line \textbf{pipeline} with stages: prepare $\rightarrow$ train $\rightarrow$ infer $\rightarrow$ eval (optional smoke test).
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}[
+    node distance=1.1cm and 0.6cm,
+    box/.style={draw, rounded corners, minimum width=2.2cm, minimum height=0.7cm, align=center, font=\small},
+    arr/.style={-{Stealth[length=2mm]}, thick}
+  ]
+    \node[box] (data) {HF datasets\\(loaders)};
+    \node[box, right=of data] (train) {Fine-tune\\mT5};
+    \node[box, right=of train] (infer) {Beam\\decode};
+    \node[box, right=of infer] (eval) {BERTScore\\SummaC};
+    \draw[arr] (data) -- (train);
+    \draw[arr] (train) -- (infer);
+    \draw[arr] (infer) -- (eval);
+  \end{tikzpicture}
+  \caption{End-to-end workflow (\texttt{python -m src.pipeline}).}
+\end{figure}
+
+Outputs are written under \texttt{practical/outputs/}: checkpoints, JSONL predictions, and JSON/CSV evaluation reports.
+
+% ---------------------------------------------------------------------------
+\section{Implementation --- details}
+% ---------------------------------------------------------------------------
+
+\subsection{Project layout}
+
+\begin{verbatim}
+practical/
+  src/
+    config.py          # paths, model names, lengths, seed
+    pipeline.py        # orchestrates stages
+    train.py           # Seq2SeqTrainer fine-tuning
+    infer.py           # batch generation
+    data/loaders.py    # dataset load + normalize + merge
+    eval/
+      bertscore_eval.py
+      summac_eval.py
+  outputs/             # checkpoints, predictions, reports
+\end{verbatim}
+
+\subsection{Libraries and main APIs}
+
+\begin{itemize}
+  \item \textbf{PyTorch / Hugging Face Transformers} --- \texttt{AutoModelForSeq2SeqLM}, \texttt{AutoTokenizer}, \texttt{Seq2SeqTrainer}, \texttt{Seq2SeqTrainingArguments}, \texttt{DataCollatorForSeq2Seq}.
+  \item \textbf{Hugging Face Datasets} --- \texttt{load\_dataset}, \texttt{concatenate\_datasets}, split helpers in \texttt{src/data/loaders.py}.
+  \item \textbf{bert-score} --- multilingual BERTScore (\texttt{xlm-roberta-large} by default).
+  \item \textbf{SummaC} --- factual consistency scoring on (source, prediction) pairs.
+  \item \textbf{accelerate} --- training backend used by Transformers.
+\end{itemize}
+
+\subsection{Key functions and entry points}
+
+\begin{itemize}
+  \item \texttt{load\_all\_datasets}, \texttt{build\_combined\_split} --- load EN/RO corpora and build mixed splits.
+  \item \texttt{tokenize\_dataset} --- encode sources and summary labels for training.
+  \item \texttt{src.train} --- fine-tune and save checkpoint to \texttt{outputs/checkpoints/mt5-en-ro}.
+  \item \texttt{src.infer} --- write \texttt{test\_predictions.jsonl}.
+  \item \texttt{src.eval.bertscore\_eval}, \texttt{src.eval.summac\_eval} --- produce report files.
+  \item \texttt{src.pipeline} --- run selected stages from one CLI.
+\end{itemize}
+
+\subsection{Default hyperparameters}
+
+\begin{center}
+\begin{tabular}{ll}
+  \hline
+  Setting & Value \\
+  \hline
+  Base model & \texttt{google/mt5-base} \\
+  Max source / target length & 512 / 128 \\
+  Learning rate & $5 \times 10^{-5}$ \\
+  Beam size (inference) & 4 \\
+  Random seed & 42 \\
+  \hline
+\end{tabular}
+\end{center}
+
+\end{document}
