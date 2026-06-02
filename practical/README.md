@@ -67,7 +67,7 @@ Default training (mixed EN+RO):
 
 ```bash
 python -m src.train \
-  --output_dir outputs/checkpoints/mt5-en-ro \
+  --output_dir outputs/checkpoints/mt5-small-en-ro \
   --epochs 2 \
   --train_batch_size 2 \
   --eval_batch_size 2
@@ -79,7 +79,7 @@ Generate summaries for evaluation split:
 
 ```bash
 python -m src.infer \
-  --model_dir outputs/checkpoints/mt5-en-ro \
+  --model_dir outputs/checkpoints/mt5-small-en-ro \
   --split test \
   --output_file outputs/predictions/test_predictions.jsonl
 ```

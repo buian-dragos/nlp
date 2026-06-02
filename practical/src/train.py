@@ -23,7 +23,7 @@ from src.data.loaders import build_combined_split, ensure_output_dirs, load_all_
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Train multilingual summarization model.")
     parser.add_argument("--model_name", default=CONFIG.model_name)
-    parser.add_argument("--output_dir", default=str(CONFIG.checkpoints_dir / "mt5-en-ro"))
+    parser.add_argument("--output_dir", default=str(CONFIG.checkpoints_dir / "mt5-small-en-ro"))
     parser.add_argument("--epochs", type=int, default=1)
     parser.add_argument("--train_batch_size", type=int, default=2)
     parser.add_argument("--eval_batch_size", type=int, default=2)
@@ -109,6 +109,7 @@ def main() -> None:
         report_to="none",
         save_total_limit=2,
         load_best_model_at_end=False,
+        save_safetensors=False,
     )
 
     trainer = Seq2SeqTrainer(

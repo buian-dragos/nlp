@@ -1,0 +1,17 @@
+{
+  "model_name": "google/mt5-small",
+  "epochs": 1,
+  "train_batch_size": 2,
+  "eval_batch_size": 2,
+  "learning_rate": 5e-05,
+  "seed": 42,
+  "limit_per_dataset": 2000,
+  "max_source_length": 512,
+  "max_target_length": 128,
+  "datasets": [
+    "cnndm",
+    "xsum",
+    "ro_readerbench",
+    "ro_massivesumm"
+  ]
+}

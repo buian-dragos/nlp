@@ -15,7 +15,7 @@ class ProjectConfig:
     predictions_dir: Path = outputs_dir / "predictions"
     checkpoints_dir: Path = outputs_dir / "checkpoints"
 
-    model_name: str = "google/mt5-base"
+    model_name: str = "google/mt5-small"
     bertscore_model: str = "xlm-roberta-large"
     seed: int = 42
 

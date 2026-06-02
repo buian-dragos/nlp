@@ -1,0 +1,1438 @@
+{
+  "metadata": {
+    "metric": "summac_score",
+    "threshold": 0.5,
+    "model_name": "vitc",
+    "input_file": "outputs/predictions/test_predictions_200.jsonl",
+    "num_examples": 200,
+    "factual_rate": 0.25
+  },
+  "grouped": [
+    {
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score_mean": -0.10658163311837734,
+      "summac_score_std": 0.5517301264079185,
+      "n": 58,
+      "summac_score_ci95": 0.14199360100774047
+    },
+    {
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score_mean": -0.09506372008660827,
+      "summac_score_std": 0.5909074580757561,
+      "n": 66,
+      "summac_score_ci95": 0.14256193288889063
+    },
+    {
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score_mean": 0.28221290989925985,
+      "summac_score_std": 0.35059059062666276,
+      "n": 76,
+      "summac_score_ci95": 0.07882237768399493
+    }
+  ],
+  "instances": [
+    {
+      "id": "ro_readerbench_959",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.8067626953125,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1430",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.5248565673828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1991",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.6674728393554688,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1264",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.103515625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1059",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.278564453125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1542",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.4661865234375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1721",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.499267578125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_175",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.7093505859375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1599",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.04931640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_881",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.734375,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_227",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.24267578125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1983",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.338836669921875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1700",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.376220703125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_768",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.6865234375,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_1441",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.6209920247395834,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_1005",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.36474609375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1358",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.8489990234375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1014",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.560546875,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_791",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.5520477294921875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1051",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.7955322265625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1118",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.1068115234375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_624",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.9495849609375,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1313",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.025634765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1919",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.140625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1062",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.4244384765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1450",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.53076171875,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_427",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.768890380859375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_27",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.82135009765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_412",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.2177734375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1875",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.132080078125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1020",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.068115234375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1262",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.908203125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_394",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.2457275390625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_283",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.5419921875,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1855",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.8487548828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1186",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.08251953125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_285",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.1630859375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1217",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.67578125,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_1597",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.66943359375,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_1238",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.451416015625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_388",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.341552734375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1666",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.501617431640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_889",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.099365234375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1539",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.3837890625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1087",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.38671875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_9",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.627685546875,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_1552",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.89556884765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1984",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.225830078125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_951",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.2493896484375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_440",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.54736328125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1397",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.8621826171875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_718",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.212890625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_719",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.5037841796875,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.9751205444335938,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1988",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.37255859375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_903",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.836181640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1627",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.248382568359375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_927",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.00927734375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1787",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.2353515625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_497",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.81005859375,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_48",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.8406982421875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1292",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.55657958984375,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1346",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.6856689453125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_553",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.120361328125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_447",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.091552734375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1670",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.571044921875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_114",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.199951171875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_330",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.932159423828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_871",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.9005126953125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1191",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.905853271484375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1255",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.3747596740722656,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1653",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.6939697265625,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_892",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.052001953125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1645",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.850341796875,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_276",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.8078155517578125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_56",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.26708984375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_835",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.3671875,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1974",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.73583984375,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1551",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.60888671875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1942",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.629150390625,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_191",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.8988037109375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1988",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.35205078125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_775",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.7108154296875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1083",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.3857421875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_795",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.05322265625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1897",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.16357421875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_241",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.50244140625,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1340",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.6171875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1804",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.248291015625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_48",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.04248046875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_724",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.8824462890625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1822",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.6368408203125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_792",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.05859375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1389",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.32421875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_169",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.02880859375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1163",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.181640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1474",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.92138671875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1531",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.34765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1094",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.17431640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1507",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.188720703125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1893",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.6708984375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1136",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.7525634765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_453",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.111328125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1550",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.0732421875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_261",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.684326171875,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1903",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.25341796875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_880",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.902923583984375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_551",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.50634765625,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1204",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.158203125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_324",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.86334228515625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_564",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.03971099853515625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1692",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.134765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_772",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.5263671875,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1978",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.2763671875,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_661",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.31005859375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1315",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.03369140625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_466",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.36236572265625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1685",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.29888916015625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_932",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.573486328125,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_802",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.8923492431640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_102",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.4638671875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1413",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.8377685546875,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_355",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.72119140625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_135",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.9486083984375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_826",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.497314453125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1915",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_583",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.67822265625,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1049",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.938262939453125,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1826",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.8924102783203125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_690",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.8923492431640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1518",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.318359375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_324",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.29931640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_197",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.30810546875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1598",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.37548828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_282",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.56494140625,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_789",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.84246826171875,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_416",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.238037109375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_228",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.3525390625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1748",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.2872314453125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1531",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.551025390625,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1072",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.489501953125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1874",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.17822265625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1051",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.9526634216308594,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1818",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.38238525390625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_346",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.5394287109375,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_757",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.534423828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1365",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.937286376953125,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_184",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.03125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_800",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.560302734375,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1427",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.284912109375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_350",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.16162109375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_455",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.37420654296875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1781",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.2802734375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_83",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.30810546875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1170",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.2568359375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1853",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.52685546875,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_1103",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.00732421875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_428",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.0576171875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1477",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.4559733072916667,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_755",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.67041015625,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1390",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.09423828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1667",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.1627197265625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1753",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.31640625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_346",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.30078125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1567",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.6272786458333334,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1295",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.2081298828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_812",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.0048828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_922",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.608123779296875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_101",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.5997314453125,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_96",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.03369140625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1443",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.55029296875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1793",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.213623046875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1636",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": -0.0894775390625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1483",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.87176513671875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_514",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.04248046875,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1039",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.19775390625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_849",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.39697265625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1191",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.507568359375,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1395",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.8027750651041666,
+      "factual_flag": 1
+    },
+    {
+      "id": "cnndm_1168",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.353759765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1199",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.17138671875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_316",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.26416015625,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1063",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": -0.73175048828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_934",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.25439453125,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1008",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.637451171875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_690",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.217529296875,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_32",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.97509765625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1293",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.659912109375,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_1892",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.0888671875,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1092",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.40576171875,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1097",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.1025390625,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_710",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.318359375,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_1369",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.66552734375,
+      "factual_flag": 1
+    },
+    {
+      "id": "xsum_428",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.8239593505859375,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1198",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.60498046875,
+      "factual_flag": 1
+    },
+    {
+      "id": "ro_readerbench_1578",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.16015625,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_650",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": 0.1009521484375,
+      "factual_flag": 0
+    },
+    {
+      "id": "cnndm_1821",
+      "language": "en",
+      "dataset": "cnndm",
+      "summac_score": 0.06298828125,
+      "factual_flag": 0
+    },
+    {
+      "id": "xsum_1570",
+      "language": "en",
+      "dataset": "xsum",
+      "summac_score": -0.213348388671875,
+      "factual_flag": 0
+    },
+    {
+      "id": "ro_readerbench_811",
+      "language": "ro",
+      "dataset": "ro_readerbench",
+      "summac_score": 0.73486328125,
+      "factual_flag": 1
+    }
+  ]
+}

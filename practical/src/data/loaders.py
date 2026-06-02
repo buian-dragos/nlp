@@ -122,7 +122,7 @@ def load_ro_readerbench_dataset() -> DatasetDict:
 
 def _is_romanian(example: dict) -> bool:
     language = str(example.get("language", "")).strip().lower()
-    return language in {"romanian", "ro"}
+    return language in {"romanian", "ro", "ron"}
 
 
 def load_ro_massivesumm_dataset() -> DatasetDict:
@@ -133,6 +133,7 @@ def load_ro_massivesumm_dataset() -> DatasetDict:
         ro_only[split_name] = split_data.filter(
             _is_romanian,
             desc=f"Filtering MassiveSumm_long-{split_name} for Romanian",
+            load_from_cache_file=False,
         )
     standardized = _with_standard_splits(DatasetDict(ro_only), dataset_name="ro_massivesumm")
 

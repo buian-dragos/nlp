@@ -5,6 +5,9 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta, positioning}
 
@@ -42,7 +45,7 @@ The model learns parameters $\theta$ that maximize the conditional likelihood:
   = \sum_{(x,y) \in \mathcal{D}} \sum_{t=1}^{m} \log P_\theta(y_t \mid y_{<t}, x).
 \]
 
-We fine-tune \textbf{mT5} (\texttt{google/mt5-base}), a multilingual T5 encoder--decoder, on a mixed EN+RO training set.
+We fine-tune \textbf{mT5} (\texttt{google/mt5-small}), a multilingual T5 encoder--decoder, on a mixed EN+RO training set.
 At inference time we use \textbf{beam search} (beam width $B=4$) to approximate
 \[
   \hat{y} = \arg\max_{y} P_\theta(y \mid x).
@@ -57,18 +60,35 @@ All corpora are loaded via Hugging Face \texttt{datasets} and normalized to a co
 \texttt{id}, \texttt{language}, \texttt{dataset}, \texttt{source}, \texttt{reference}.
 If a corpus lacks \texttt{validation} or \texttt{test}, splits are created automatically (e.g.\ 80/10/10 from train).
 
-\begin{center}
-\begin{tabular}{llll}
-  \hline
-  Language & Dataset & HF id & Fields mapped \\
-  \hline
-  EN & CNN/DailyMail & \texttt{cnn\_dailymail} & article $\rightarrow$ source, highlights $\rightarrow$ reference \\
-  EN & XSum & \texttt{xsum} & document $\rightarrow$ source, summary $\rightarrow$ reference \\
-  RO & ReaderBench & \texttt{readerbench/ro-text-summarization} & Content, Summary \\
-  RO & MassiveSumm (RO only) & \texttt{MaLA-LM/MassiveSumm\_long} & text, summary \\
-  \hline
-\end{tabular}
-\end{center}
+\begin{table}[htbp]
+  \centering
+  \small
+  \caption{Corpora used in the pipeline.}
+  \label{tab:datasets}
+  \setlength{\tabcolsep}{5pt}
+  \renewcommand{\arraystretch}{1.15}
+  \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.5cm} >{\raggedright\arraybackslash}p{2.1cm} X@{}}
+    \toprule
+    & Dataset & Hugging Face id and field mapping \\
+    \midrule
+    EN & CNN/DailyMail &
+      \nolinkurl{cnn_dailymail} \\
+    & & article $\rightarrow$ source, highlights $\rightarrow$ reference \\
+    \addlinespace
+    EN & XSum &
+      \nolinkurl{xsum} \\
+    & & document $\rightarrow$ source, summary $\rightarrow$ reference \\
+    \addlinespace
+    RO & ReaderBench &
+      \nolinkurl{readerbench/ro-text-summarization} \\
+    & & Content $\rightarrow$ source, Summary $\rightarrow$ reference \\
+    \addlinespace
+    RO & MassiveSumm &
+      \nolinkurl{MaLA-LM/MassiveSumm_long} (language \texttt{ron}) \\
+    & & text $\rightarrow$ source, summary $\rightarrow$ reference \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
 
 Training, validation, and test examples from all selected datasets are \textbf{concatenated and shuffled} (with optional per-dataset caps for smoke runs).
 
@@ -131,7 +151,7 @@ practical/
 \begin{itemize}
   \item \texttt{load\_all\_datasets}, \texttt{build\_combined\_split} --- load EN/RO corpora and build mixed splits.
   \item \texttt{tokenize\_dataset} --- encode sources and summary labels for training.
-  \item \texttt{src.train} --- fine-tune and save checkpoint to \texttt{outputs/checkpoints/mt5-en-ro}.
+  \item \texttt{src.train} --- fine-tune and save checkpoint to \texttt{outputs/checkpoints/mt5-small-en-ro}.
   \item \texttt{src.infer} --- write \texttt{test\_predictions.jsonl}.
   \item \texttt{src.eval.bertscore\_eval}, \texttt{src.eval.summac\_eval} --- produce report files.
   \item \texttt{src.pipeline} --- run selected stages from one CLI.
@@ -140,17 +160,114 @@ practical/
 \subsection{Default hyperparameters}
 
 \begin{center}
-\begin{tabular}{ll}
-  \hline
+\small
+\begin{tabular}{@{}ll@{}}
+  \toprule
   Setting & Value \\
-  \hline
-  Base model & \texttt{google/mt5-base} \\
+  \midrule
+  Base model & \texttt{google/mt5-small} \\
   Max source / target length & 512 / 128 \\
   Learning rate & $5 \times 10^{-5}$ \\
   Beam size (inference) & 4 \\
   Random seed & 42 \\
-  \hline
+  \bottomrule
 \end{tabular}
 \end{center}
+
+% ---------------------------------------------------------------------------
+\section{Experiments and results}
+% ---------------------------------------------------------------------------
+
+\subsection{Experimental setup}
+
+All runs were executed on a workstation with an \textbf{NVIDIA GeForce GTX~1070} (8\,GB VRAM), using the conda environment defined in \texttt{environment.yml}.
+We use \texttt{google/mt5-small} rather than \texttt{mt5-base} to fit GPU memory and reduce training time.
+Table~\ref{tab:exp-setup} summarizes the pilot experiment reported below.
+
+\begin{table}[h]
+  \centering
+  \small
+  \caption{Pilot training and evaluation configuration.}
+  \label{tab:exp-setup}
+  \begin{tabularx}{\textwidth}{@{}l X@{}}
+    \toprule
+    Setting & Value \\
+    \midrule
+    Model & \texttt{google/mt5-small} \\
+    EN datasets & CNN/DailyMail, XSum \\
+    RO datasets & ReaderBench, MassiveSumm (\texttt{ron}) \\
+    Cap per dataset & 2\,000 (train / val / test) \\
+    Epochs & 1 \\
+    Batch size (train / eval) & 2 / 2 \\
+    Max source / target length & 512 / 128 \\
+    Optimizer & AdamW, lr $=5\times10^{-5}$, warmup 0.05 \\
+    Inference & beam search ($B=4$) \\
+    Metrics & BERTScore (\texttt{xlm-roberta-large}), SummaC (\texttt{vitc}) \\
+    Checkpoint & \texttt{outputs/checkpoints/mt5-small-en-ro} \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+Training consumed ${\sim}$6\,000 mixed examples (${\sim}$3\,000 optimization steps) and completed in ${\sim}$18 minutes on the target GPU.
+The final training loss was $5.05$; validation loss after one epoch was $2.86$.
+Inference on the combined test split produced \textbf{6\,000} predictions: 2\,000 per corpus (CNN/DailyMail, XSum, ReaderBench).
+
+\subsection{Semantic quality (BERTScore)}
+
+BERTScore F1 was computed on all 6\,000 test predictions against the reference summaries.
+Table~\ref{tab:bertscore} reports mean F1 by language and dataset.
+
+\begin{table}[h]
+  \centering
+  \small
+  \caption{BERTScore F1 on the test split ($n=6\,000$).}
+  \label{tab:bertscore}
+  \begin{tabular}{@{}llrr@{}}
+    \toprule
+    Lang. & Dataset & $n$ & F1 \\
+    \midrule
+    EN & CNN/DailyMail & 2\,000 & 0.878 \\
+    EN & XSum & 2\,000 & 0.874 \\
+    RO & ReaderBench & 2\,000 & 0.875 \\
+    \midrule
+    \multicolumn{2}{l}{Macro-average} & & 0.875 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Scores are high and stable across languages (${\sim}$0.87--0.88), indicating that the generated summaries are semantically close to the references under this shallow fine-tuning regime.
+This is expected partly because mT5-small is pretrained and the evaluation set overlaps the fine-tuning distribution; stronger gains would require longer training or full-corpus fine-tuning.
+
+\subsection{Factual consistency (SummaC)}
+
+SummaC is substantially slower than BERTScore on long news articles, so we first evaluated a \textbf{random 200-example subset} of the prediction file (\texttt{summac\_report\_200.json}).
+Table~\ref{tab:summac} lists mean SummaC scores and the fraction of summaries marked factual at threshold~0.5.
+
+\begin{table}[h]
+  \centering
+  \small
+  \caption{SummaC on a 200-example test subset (threshold $=0.5$).}
+  \label{tab:summac}
+  \begin{tabular}{@{}llrr@{}}
+    \toprule
+    Lang. & Dataset & $n$ & Mean score \\
+    \midrule
+    EN & CNN/DailyMail & 58 & $-0.107$ \\
+    EN & XSum & 66 & $-0.095$ \\
+    RO & ReaderBench & 76 & $0.282$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\noindent
+On this subset, \textbf{25\%} of summaries exceeded the factuality threshold (score $\geq 0.5$).
+English news domains (CNN/DailyMail, XSum) received negative mean SummaC scores, while Romanian ReaderBench summaries scored higher on average.
+This pattern suggests that semantic overlap with references (BERTScore) does not imply source faithfulness: the model can produce fluent text that is poorly supported by the source, especially on abstractive English headlines.
+
+\subsection{Discussion and next steps}
+
+The pilot run validates the full pipeline (load $\rightarrow$ train $\rightarrow$ infer $\rightarrow$ eval) on bilingual data with practical resource constraints.
+Limitations of this experiment include: (i)~only one epoch on capped subsets, (ii)~a smaller encoder (\texttt{mt5-small}), and (iii)~partial SummaC evaluation due to runtime.
+Promising follow-ups are full-corpus fine-tuning, mixed-precision training on GPU, faster greedy decoding for development, and completing SummaC on the full 6\,000-example test set.
 
 \end{document}

@@ -7,7 +7,6 @@ dependencies:
   - pytorch>=2.2
   - torchvision
   - torchaudio
-  - cpuonly
   - pip
   - numpy
   - pandas

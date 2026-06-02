@@ -20,7 +20,7 @@ def parse_args() -> argparse.Namespace:
         choices=["prepare", "train", "infer", "eval", "smoke"],
     )
     parser.add_argument("--model_name", default=CONFIG.model_name)
-    parser.add_argument("--model_dir", default=str(CONFIG.checkpoints_dir / "mt5-en-ro"))
+    parser.add_argument("--model_dir", default=str(CONFIG.checkpoints_dir / "mt5-small-en-ro"))
     parser.add_argument(
         "--predictions_file",
         default=str(CONFIG.predictions_dir / "test_predictions.jsonl"),
